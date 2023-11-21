@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Waldemarst/Broccoli/Editor/Resources/GUI/SproutLabDebugPanelStyle.uss?fileID=7433441132597879392&amp;guid=f5b3671012466e87a90e1850a985201c&amp;type=3#SproutLabDebugPanelStyle" />
+    <ui:VisualElement style="flex-direction: row;">
+        <ui:ListView focusable="true" show-border="false" header-title="Settings" reorderable="false" name="options-list" class="options-list" />
+        <ui:VisualElement name="container-geometry" class="options-container">
+            <ui:Label text="Scene" name="Label" style="-unity-font-style: bold;" />
+            <uie:ColorField label="Background" value="RGBA(0.000, 1.000, 1.000, 1.000)" name="var-preview-bg-color" tooltip="Background color for the preview canvas." />
+            <ui:Slider picking-mode="Ignore" label="Plane Size" value="1" high-value="4" name="var-preview-plane-size" tooltip="Size for the plane at the base of the variation mesh. A size of 1 equals 1 meter." low-value="0.25">
+                <ui:Label text="0/0" name="info" />
+            </ui:Slider>
+            <uie:ColorField label="Plane Tint" value="RGBA(0.000, 1.000, 1.000, 1.000)" name="var-preview-plane-tint" tooltip="Plane tint to apply to the base plane material." show-alpha="true" />
+        </ui:VisualElement>
+        <ui:ScrollView name="container-canvas" class="options-container">
+            <ui:Label text="Canvas" style="-unity-font-style: bold;" />
+            <ui:IMGUIContainer name="container-canvas-imgui" />
+        </ui:ScrollView>
+        <ui:ScrollView name="container-mesh" class="options-container">
+            <ui:Label text="Mesh" display-tooltip-when-elided="true" style="-unity-font-style: bold;" />
+            <ui:IMGUIContainer name="container-mesh-imgui" />
+        </ui:ScrollView>
+        <ui:VisualElement name="container-process" class="options-container" />
+        <ui:ScrollView name="container-builder" style="width: 100%;">
+            <ui:Foldout text="CompositeManager" name="build-comp-foldout" value="false" style="-unity-font-style: bold;" />
+            <ui:IMGUIContainer name="build-comp-imgui" />
+        </ui:ScrollView>
+        <ui:ScrollView name="container-snapshot" style="width: 100%;">
+            <ui:Foldout text="Snapshot" name="snap-info-foldout" value="false" style="-unity-font-style: bold;" />
+            <ui:IMGUIContainer name="snap-info-imgui" />
+            <ui:Foldout text="Snapshot Mesh" name="snap-mesh-foldout" value="false" style="-unity-font-style: bold;" />
+            <ui:IMGUIContainer name="snap-mesh-imgui" />
+            <ui:Foldout text="Snapshot Processing" name="snap-process-foldout" value="false" style="-unity-font-style: bold;" />
+            <ui:IMGUIContainer name="snap-process-imgui" />
+            <ui:Foldout text="Snapshot Texture" name="snap-texture-foldout" value="false" style="-unity-font-style: bold;" />
+            <ui:IMGUIContainer name="snap-texture-imgui" />
+            <ui:Foldout text="Snapshot Fragments" name="snap-frags-foldout" value="false" style="-unity-font-style: bold;" />
+            <ui:IMGUIContainer name="snap-frags-imgui" />
+            <ui:Foldout text="Snapshot Polygons" name="snap-polys-foldout" style="-unity-font-style: bold;" />
+            <ui:IMGUIContainer name="snap-polys-imgui" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

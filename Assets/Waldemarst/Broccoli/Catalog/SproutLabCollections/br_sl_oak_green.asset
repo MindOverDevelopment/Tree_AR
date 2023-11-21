@@ -1,0 +1,4689 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c98f0170c469685ac5dc4630b73f4d, type: 3}
+  m_Name: br_sl_oak_green
+  m_EditorClassIdentifier: 
+  branchDescriptorCollection:
+    descriptorImplId: 0
+    descriptorImplName: Undefined Descriptor
+    snapshots:
+    - id: 1
+      snapshotType: 
+      processorId: 0
+      seed: -649532048
+      activeLevels: 2
+      curve:
+        _closed: 0
+        _axis: 0
+        nodes: []
+        resolutionAngle: 5
+        alwaysIncludeNodeAsPoint: 0
+        noiseResolution: 4
+        noiseStrength: 0.2
+        noiseFactorAtFirstNode: 0
+        noiseFactorAtLastNode: 0
+        noiseScaleAtFirstNode: 1
+        noiseScaleAtLastNode: 1
+        noiseLengthOffset: 0
+        noiseLengthScale: 1
+        spareNoiseOffsetAtFirstPoint: 0
+        referenceForward: {x: 0, y: 1, z: 0}
+        normalMode: 0
+        referenceNormal: {x: 0, y: 0, z: 1}
+        fixedNormal: {x: 0, y: 0, z: 1}
+        _guid: 4f6b4181-cc25-4488-b052-ce5d9de53dde
+        simplifyBias: 0
+        distanceStep: 0.05
+      girthAtBase: 0.016125001
+      girthAtTop: 0.00075
+      noiseResolution: 0.485
+      noiseAtBase: 0.839
+      noiseAtTop: 0.826
+      noiseScaleAtBase: 0.202
+      noiseScaleAtTop: 0.845
+      branchLevelDescriptors:
+      - isEnabled: 1
+        minFrequency: 1
+        maxFrequency: 1
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.44175392
+        maxLengthAtBase: 0.634555
+        minLengthAtTop: 0.22500001
+        maxLengthAtTop: 0.3
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      - isEnabled: 1
+        minFrequency: 1
+        maxFrequency: 5
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.46323532
+        maxLengthAtBase: 0.5382353
+        minLengthAtTop: 0.78088236
+        maxLengthAtTop: 0.85588235
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0.56818193
+        maxParallelAlignAtTop: 0.92045456
+        minParallelAlignAtBase: -0.37651515
+        maxParallelAlignAtBase: -0.1378788
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: -0.52
+        maxPlaneAlignAtBase: 0.22666669
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 7
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.22500001
+        maxLengthAtBase: 0.3
+        minLengthAtTop: 0.22500001
+        maxLengthAtTop: 0.3
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0.625
+        maxParallelAlignAtTop: 0.8181818
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0.39772728
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      - isEnabled: 1
+        minFrequency: 2
+        maxFrequency: 3
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.22500001
+        maxLengthAtBase: 0.3
+        minLengthAtTop: 0.22500001
+        maxLengthAtTop: 0.3
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0.76878613
+        maxParallelAlignAtTop: 0.76878613
+        minParallelAlignAtBase: 0.433526
+        maxParallelAlignAtBase: 0.433526
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      sproutASubmeshIndex: 1
+      sproutBSubmeshIndex: -1
+      sproutCrownSubmeshIndex: -1
+      sproutASubmeshCount: 0
+      sproutBSubmeshCount: 0
+      sproutCrownSubmeshCount: 0
+      sproutASize: 0.09
+      sproutAScaleAtBase: 1.2
+      sproutAScaleAtTop: 0.4
+      sproutAScaleVariance: 0.488
+      sproutAScaleMode: 0
+      sproutAFlipAlign: 0.613
+      sproutANormalRandomness: 0.575
+      sproutABendingAtTop: 0
+      sproutABendingAtBase: 0
+      sproutASideBendingAtTop: 0
+      sproutASideBendingAtBase: 0
+      sproutALevelDescriptors:
+      - isEnabled: 1
+        minFrequency: 1
+        maxFrequency: 4
+        minParallelAlignAtTop: 0.5260116
+        maxParallelAlignAtTop: 0.5260116
+        minParallelAlignAtBase: 0.31791908
+        maxParallelAlignAtBase: 0.31791908
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0.32947975
+        maxParallelAlignAtTop: 0.47976875
+        minParallelAlignAtBase: 0.32947975
+        maxParallelAlignAtBase: 0.7919075
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0.625
+        maxParallelAlignAtTop: 0.8863636
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0.17045455
+        minGravityAlignAtTop: 0.38636363
+        maxGravityAlignAtTop: 0.60227275
+        minGravityAlignAtBase: 0.20454545
+        maxGravityAlignAtBase: 0.44318175
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0.41618496
+        maxParallelAlignAtTop: 0.80924845
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0.25433525
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      sproutBSize: 0.075
+      sproutBScaleAtBase: 1
+      sproutBScaleAtTop: 1
+      sproutBScaleVariance: 0
+      sproutBScaleMode: 0
+      sproutBFlipAlign: 0.8
+      sproutBNormalRandomness: 0.5
+      sproutBBendingAtTop: 0
+      sproutBBendingAtBase: 0
+      sproutBSideBendingAtTop: 0
+      sproutBSideBendingAtBase: 0
+      sproutBLevelDescriptors:
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      polygonAreas: []
+      lodCount: 3
+      lastSproutPosition: {x: 0, y: 0, z: 0}
+      crownEnabled: 0
+      crownMinRange: 0
+      crownMaxRange: 0
+      crownProbability: 0
+      crownMinFrequency: 0
+      crownMaxFrequency: 0
+      crownDepth: 0
+      crownSize: 0
+      crownScaleAtTop: 0
+      crownScaleAtBase: 0
+      crownScaleVariance: 0
+      sproutCrownLevelDescriptor:
+        isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      selectedLevelIndex: 0
+    - id: 2
+      snapshotType: 
+      processorId: 0
+      seed: -1947610560
+      activeLevels: 2
+      curve:
+        _closed: 0
+        _axis: 0
+        nodes: []
+        resolutionAngle: 5
+        alwaysIncludeNodeAsPoint: 0
+        noiseResolution: 4
+        noiseStrength: 0.2
+        noiseFactorAtFirstNode: 0
+        noiseFactorAtLastNode: 0
+        noiseScaleAtFirstNode: 1
+        noiseScaleAtLastNode: 1
+        noiseLengthOffset: 0
+        noiseLengthScale: 1
+        spareNoiseOffsetAtFirstPoint: 0
+        referenceForward: {x: 0, y: 1, z: 0}
+        normalMode: 0
+        referenceNormal: {x: 0, y: 0, z: 1}
+        fixedNormal: {x: 0, y: 0, z: 1}
+        _guid: aa9f9f43-e0cd-46b0-bf63-0020a1617f05
+        simplifyBias: 0
+        distanceStep: 0.05
+      girthAtBase: 0.009075
+      girthAtTop: 0.00075
+      noiseResolution: 0.475
+      noiseAtBase: 0.809
+      noiseAtTop: 0.786
+      noiseScaleAtBase: 0.266
+      noiseScaleAtTop: 0.744
+      branchLevelDescriptors:
+      - isEnabled: 1
+        minFrequency: 1
+        maxFrequency: 1
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.22500001
+        maxLengthAtBase: 0.30727458
+        minLengthAtTop: 0.22500001
+        maxLengthAtTop: 0.3
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      - isEnabled: 1
+        minFrequency: 3
+        maxFrequency: 6
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.2655738
+        maxLengthAtBase: 0.34057373
+        minLengthAtTop: 0.45942622
+        maxLengthAtTop: 0.5344262
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0.56818193
+        maxParallelAlignAtTop: 0.92045456
+        minParallelAlignAtBase: 0.056818184
+        maxParallelAlignAtBase: 0.29545453
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 7
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.14385247
+        maxLengthAtBase: 0.21885258
+        minLengthAtTop: 0.13934427
+        maxLengthAtTop: 0.21434432
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0.625
+        maxParallelAlignAtTop: 0.8181818
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0.39772728
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      - isEnabled: 1
+        minFrequency: 1
+        maxFrequency: 1
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.22500001
+        maxLengthAtBase: 0.3
+        minLengthAtTop: 0.22500001
+        maxLengthAtTop: 0.3
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      sproutASubmeshIndex: 1
+      sproutBSubmeshIndex: -1
+      sproutCrownSubmeshIndex: -1
+      sproutASubmeshCount: 0
+      sproutBSubmeshCount: 0
+      sproutCrownSubmeshCount: 0
+      sproutASize: 0.08
+      sproutAScaleAtBase: 1.2
+      sproutAScaleAtTop: 0.46
+      sproutAScaleVariance: 0.413
+      sproutAScaleMode: 0
+      sproutAFlipAlign: 0.64
+      sproutANormalRandomness: 0.5
+      sproutABendingAtTop: 0
+      sproutABendingAtBase: 0
+      sproutASideBendingAtTop: 0
+      sproutASideBendingAtBase: 0
+      sproutALevelDescriptors:
+      - isEnabled: 0
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 3
+        maxFrequency: 6
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 2
+        maxFrequency: 3
+        minParallelAlignAtTop: 0.625
+        maxParallelAlignAtTop: 0.8863636
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0.17045455
+        minGravityAlignAtTop: 0.38636363
+        maxGravityAlignAtTop: 0.60227275
+        minGravityAlignAtBase: 0.20454545
+        maxGravityAlignAtBase: 0.44318175
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      sproutBSize: 0.04575
+      sproutBScaleAtBase: 1.49
+      sproutBScaleAtTop: 1
+      sproutBScaleVariance: 0
+      sproutBScaleMode: 0
+      sproutBFlipAlign: 0.8
+      sproutBNormalRandomness: 0.5
+      sproutBBendingAtTop: 0
+      sproutBBendingAtBase: 0
+      sproutBSideBendingAtTop: 0
+      sproutBSideBendingAtBase: 0
+      sproutBLevelDescriptors:
+      - isEnabled: 0
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 0
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 1
+        maxFrequency: 2
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      polygonAreas: []
+      lodCount: 3
+      lastSproutPosition: {x: 0, y: 0, z: 0}
+      crownEnabled: 0
+      crownMinRange: 0
+      crownMaxRange: 0
+      crownProbability: 0
+      crownMinFrequency: 0
+      crownMaxFrequency: 0
+      crownDepth: 0
+      crownSize: 0
+      crownScaleAtTop: 0
+      crownScaleAtBase: 0
+      crownScaleVariance: 0
+      sproutCrownLevelDescriptor:
+        isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      selectedLevelIndex: 0
+    - id: 3
+      snapshotType: 
+      processorId: 0
+      seed: 1810018434
+      activeLevels: 2
+      curve:
+        _closed: 0
+        _axis: 0
+        nodes: []
+        resolutionAngle: 5
+        alwaysIncludeNodeAsPoint: 0
+        noiseResolution: 4
+        noiseStrength: 0.2
+        noiseFactorAtFirstNode: 0
+        noiseFactorAtLastNode: 0
+        noiseScaleAtFirstNode: 1
+        noiseScaleAtLastNode: 1
+        noiseLengthOffset: 0
+        noiseLengthScale: 1
+        spareNoiseOffsetAtFirstPoint: 0
+        referenceForward: {x: 0, y: 1, z: 0}
+        normalMode: 0
+        referenceNormal: {x: 0, y: 0, z: 1}
+        fixedNormal: {x: 0, y: 0, z: 1}
+        _guid: 53b0273a-8f6c-4bc1-979c-58f48580d9cd
+        simplifyBias: 0
+        distanceStep: 0.05
+      girthAtBase: 0.009075
+      girthAtTop: 0.00075
+      noiseResolution: 0.556
+      noiseAtBase: 0.805
+      noiseAtTop: 0.826
+      noiseScaleAtBase: 0.239
+      noiseScaleAtTop: 0.75
+      branchLevelDescriptors:
+      - isEnabled: 1
+        minFrequency: 1
+        maxFrequency: 1
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.22500001
+        maxLengthAtBase: 0.30727458
+        minLengthAtTop: 0.22500001
+        maxLengthAtTop: 0.3
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      - isEnabled: 1
+        minFrequency: 1
+        maxFrequency: 2
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.075
+        maxLengthAtBase: 0.14999996
+        minLengthAtTop: 0.10207328
+        maxLengthAtTop: 0.1770733
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0.56818193
+        maxParallelAlignAtTop: 0.92045456
+        minParallelAlignAtBase: 0.056818184
+        maxParallelAlignAtBase: 0.29545453
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 7
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.14385247
+        maxLengthAtBase: 0.21885258
+        minLengthAtTop: 0.13934427
+        maxLengthAtTop: 0.21434432
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0.625
+        maxParallelAlignAtTop: 0.8181818
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0.39772728
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      - isEnabled: 1
+        minFrequency: 1
+        maxFrequency: 1
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.22500001
+        maxLengthAtBase: 0.3
+        minLengthAtTop: 0.22500001
+        maxLengthAtTop: 0.3
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      sproutASubmeshIndex: 1
+      sproutBSubmeshIndex: -1
+      sproutCrownSubmeshIndex: -1
+      sproutASubmeshCount: 0
+      sproutBSubmeshCount: 0
+      sproutCrownSubmeshCount: 0
+      sproutASize: 0.08
+      sproutAScaleAtBase: 1
+      sproutAScaleAtTop: 0.46
+      sproutAScaleVariance: 0.484
+      sproutAScaleMode: 0
+      sproutAFlipAlign: 0.64
+      sproutANormalRandomness: 0.5
+      sproutABendingAtTop: 0
+      sproutABendingAtBase: 0
+      sproutASideBendingAtTop: 0
+      sproutASideBendingAtBase: 0
+      sproutALevelDescriptors:
+      - isEnabled: 0
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 3
+        maxFrequency: 6
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 3
+        maxFrequency: 5
+        minParallelAlignAtTop: 0.625
+        maxParallelAlignAtTop: 0.8863636
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0.17045455
+        minGravityAlignAtTop: 0.38636363
+        maxGravityAlignAtTop: 0.60227275
+        minGravityAlignAtBase: 0.20454545
+        maxGravityAlignAtBase: 0.44318175
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      sproutBSize: 0.04575
+      sproutBScaleAtBase: 1.49
+      sproutBScaleAtTop: 1
+      sproutBScaleVariance: 0
+      sproutBScaleMode: 0
+      sproutBFlipAlign: 0.8
+      sproutBNormalRandomness: 0.5
+      sproutBBendingAtTop: 0
+      sproutBBendingAtBase: 0
+      sproutBSideBendingAtTop: 0
+      sproutBSideBendingAtBase: 0
+      sproutBLevelDescriptors:
+      - isEnabled: 0
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 0
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 1
+        maxFrequency: 2
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      polygonAreas: []
+      lodCount: 3
+      lastSproutPosition: {x: 0, y: 0, z: 0}
+      crownEnabled: 0
+      crownMinRange: 0
+      crownMaxRange: 0
+      crownProbability: 0
+      crownMinFrequency: 0
+      crownMaxFrequency: 0
+      crownDepth: 0
+      crownSize: 0
+      crownScaleAtTop: 0
+      crownScaleAtBase: 0
+      crownScaleVariance: 0
+      sproutCrownLevelDescriptor:
+        isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      selectedLevelIndex: 0
+    - id: 4
+      snapshotType: 
+      processorId: 0
+      seed: -1263052860
+      activeLevels: 2
+      curve:
+        _closed: 0
+        _axis: 0
+        nodes: []
+        resolutionAngle: 5
+        alwaysIncludeNodeAsPoint: 0
+        noiseResolution: 4
+        noiseStrength: 0.2
+        noiseFactorAtFirstNode: 0
+        noiseFactorAtLastNode: 0
+        noiseScaleAtFirstNode: 1
+        noiseScaleAtLastNode: 1
+        noiseLengthOffset: 0
+        noiseLengthScale: 1
+        spareNoiseOffsetAtFirstPoint: 0
+        referenceForward: {x: 0, y: 1, z: 0}
+        normalMode: 0
+        referenceNormal: {x: 0, y: 0, z: 1}
+        fixedNormal: {x: 0, y: 0, z: 1}
+        _guid: b65e62d1-5a74-4f7f-bfde-c3caf12dc6d7
+        simplifyBias: 0
+        distanceStep: 0.05
+      girthAtBase: 0.016125001
+      girthAtTop: 0.00075
+      noiseResolution: 0.474
+      noiseAtBase: 0.839
+      noiseAtTop: 0.826
+      noiseScaleAtBase: 0.202
+      noiseScaleAtTop: 0.845
+      branchLevelDescriptors:
+      - isEnabled: 1
+        minFrequency: 1
+        maxFrequency: 1
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.44175392
+        maxLengthAtBase: 0.634555
+        minLengthAtTop: 0.22500001
+        maxLengthAtTop: 0.3
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      - isEnabled: 1
+        minFrequency: 1
+        maxFrequency: 5
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.46323532
+        maxLengthAtBase: 0.5382353
+        minLengthAtTop: 0.78088236
+        maxLengthAtTop: 0.85588235
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0.56818193
+        maxParallelAlignAtTop: 0.92045456
+        minParallelAlignAtBase: -0.37651515
+        maxParallelAlignAtBase: -0.1378788
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: -0.52
+        maxPlaneAlignAtBase: 0.22666669
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 7
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.22500001
+        maxLengthAtBase: 0.3
+        minLengthAtTop: 0.22500001
+        maxLengthAtTop: 0.3
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0.625
+        maxParallelAlignAtTop: 0.8181818
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0.39772728
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      - isEnabled: 1
+        minFrequency: 2
+        maxFrequency: 3
+        radius: 0
+        minRange: 0
+        maxRange: 1
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minLengthAtBase: 0.22500001
+        maxLengthAtBase: 0.3
+        minLengthAtTop: 0.22500001
+        maxLengthAtTop: 0.3
+        lengthCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+        minParallelAlignAtTop: 0.76878613
+        maxParallelAlignAtTop: 0.76878613
+        minParallelAlignAtBase: 0.433526
+        maxParallelAlignAtBase: 0.433526
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minPlaneAlignAtTop: 0
+        maxPlaneAlignAtTop: 0
+        minPlaneAlignAtBase: 0
+        maxPlaneAlignAtBase: 0
+      sproutASubmeshIndex: 1
+      sproutBSubmeshIndex: -1
+      sproutCrownSubmeshIndex: -1
+      sproutASubmeshCount: 0
+      sproutBSubmeshCount: 0
+      sproutCrownSubmeshCount: 0
+      sproutASize: 0.09
+      sproutAScaleAtBase: 1.2
+      sproutAScaleAtTop: 0.4
+      sproutAScaleVariance: 0.488
+      sproutAScaleMode: 0
+      sproutAFlipAlign: 0.613
+      sproutANormalRandomness: 0.575
+      sproutABendingAtTop: 0
+      sproutABendingAtBase: 0
+      sproutASideBendingAtTop: 0
+      sproutASideBendingAtBase: 0
+      sproutALevelDescriptors:
+      - isEnabled: 1
+        minFrequency: 1
+        maxFrequency: 4
+        minParallelAlignAtTop: 0.5260116
+        maxParallelAlignAtTop: 0.5260116
+        minParallelAlignAtBase: 0.31791908
+        maxParallelAlignAtBase: 0.31791908
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0.32947975
+        maxParallelAlignAtTop: 0.47976875
+        minParallelAlignAtBase: 0.32947975
+        maxParallelAlignAtBase: 0.7919075
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0.625
+        maxParallelAlignAtTop: 0.8863636
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0.17045455
+        minGravityAlignAtTop: 0.38636363
+        maxGravityAlignAtTop: 0.60227275
+        minGravityAlignAtBase: 0.20454545
+        maxGravityAlignAtBase: 0.44318175
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0.41618496
+        maxParallelAlignAtTop: 0.80924845
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0.25433525
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      sproutBSize: 0.075
+      sproutBScaleAtBase: 1
+      sproutBScaleAtTop: 1
+      sproutBScaleVariance: 0
+      sproutBScaleMode: 0
+      sproutBFlipAlign: 0.8
+      sproutBNormalRandomness: 0.5
+      sproutBBendingAtTop: 0
+      sproutBBendingAtBase: 0
+      sproutBSideBendingAtTop: 0
+      sproutBSideBendingAtBase: 0
+      sproutBLevelDescriptors:
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      - isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      polygonAreas:
+      - id: 420000
+        snapshotId: 4
+        lod: 2
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 0
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.09317137, y: 0.12016409, z: 0.46485782}
+        - {x: 0.104112975, y: 0.53135884, z: 0.747726}
+        - {x: -0.18845347, y: 1.32231, z: 0.50905806}
+        - {x: 0.08966622, y: 1.4844294, z: -0.492858}
+        - {x: 0.07488994, y: 1.4453915, z: -0.5686586}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.013630813, y: 0.010436177, z: -0.44851375}
+        lastConvexPointIndex: 7
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99998456, y: 0.000000010123461, z: 0.005552943}
+        - {x: 0.989782, y: 0.036403414, z: 0.13786387}
+        - {x: 0.9637915, y: 0.15561251, z: 0.21654256}
+        - {x: 0.9045848, y: 0.39860365, z: 0.15113398}
+        - {x: 0.90232694, y: 0.4084923, z: -0.13762313}
+        - {x: 0.9026976, y: 0.39971805, z: -0.15925616}
+        - {x: 0.93406546, y: 0.2863232, z: -0.21340288}
+        - {x: 0.9900207, y: 0.0034138833, z: -0.1408804}
+        tangents:
+        - {x: -0.0055529447, y: 0.00000001758738, z: 0.99998456, w: -1}
+        - {x: -0.13738488, y: -0.015359163, z: 0.99039865, w: -1}
+        - {x: -0.20372736, y: -0.094245955, z: 0.9744808, w: -1}
+        - {x: -0.14944255, y: -0.035516266, z: 0.98813236, w: -1}
+        - {x: 0.08302248, y: 0.14859837, z: 0.9854064, w: -1}
+        - {x: 0.17793827, y: -0.009800736, z: 0.9839928, w: -1}
+        - {x: 0.18770422, y: 0.11472059, z: 0.9755031, w: -1}
+        - {x: 0.14087908, y: 0.0006240787, z: 0.9900266, w: -1}
+        uvs:
+        - {x: 0.5119472, y: 0.000000021714559, z: 0.5119472, w: 0.000000021714559}
+        - {x: 0.8089414, y: 0.08132918, z: 0.8089414, w: 0.08132918}
+        - {x: 1, y: 0.35822007, z: 1, w: 0.35822007}
+        - {x: 0.8387957, y: 0.8908318, z: 0.8387957, w: 0.8908318}
+        - {x: 0.16206832, y: 1, z: 0.16206832, w: 1}
+        - {x: 0.11087007, y: 0.9737127, z: 0.11087007, w: 0.9737127}
+        - {x: 0, y: 0.6688133, z: 0, w: 0.6688133}
+        - {x: 0.1920199, y: 0.0074404534, z: 0.1920199, w: 0.0074404534}
+        triangles: 000000000600000003000000020000000100000000000000000000000300000002000000060000000400000003000000060000000500000004000000000000000700000006000000
+        aabb:
+          m_Center: {x: -0.042170245, y: 0.7419081, z: 0.0074604154}
+          m_Extent: {x: 0.14628322, y: 0.7425213, z: 0.7402656}
+        obb:
+          m_Center: {x: -0.042170245, y: 0.77735114, z: 0.20901635}
+          m_Extent: {x: 0.14628322, y: 0.7846035, z: 0.65274346}
+        obbAngle: 15.358955
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 420001
+        snapshotId: 4
+        lod: 2
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 1
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.09317137, y: 0.12016409, z: 0.46485782}
+        - {x: 0.104112975, y: 0.53135884, z: 0.747726}
+        - {x: -0.18845347, y: 1.32231, z: 0.50905806}
+        - {x: 0.08966622, y: 1.4844294, z: -0.492858}
+        - {x: 0.07488994, y: 1.4453915, z: -0.5686586}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.013630813, y: 0.010436177, z: -0.44851375}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        lastConvexPointIndex: 7
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99998456, y: 0.000000010123461, z: 0.005552943}
+        - {x: 0.989782, y: 0.036403414, z: 0.13786387}
+        - {x: 0.9637915, y: 0.15561251, z: 0.21654256}
+        - {x: 0.9045848, y: 0.39860365, z: 0.15113398}
+        - {x: 0.90232694, y: 0.4084923, z: -0.13762313}
+        - {x: 0.9026976, y: 0.39971805, z: -0.15925616}
+        - {x: 0.93406546, y: 0.2863232, z: -0.21340288}
+        - {x: 0.9900207, y: 0.0034138833, z: -0.1408804}
+        - {x: 0.98796517, y: 0.15467417, z: 0.000819427}
+        tangents:
+        - {x: -0.0055529396, y: -0.000000023839503, z: 0.99998456, w: -1}
+        - {x: -0.13752879, y: -0.011565749, z: 0.99043024, w: -1}
+        - {x: -0.20950519, y: -0.060484465, z: 0.97593504, w: -1}
+        - {x: -0.16105042, y: -0.008709222, z: 0.9869078, w: -1}
+        - {x: 0.09276362, y: 0.1277715, z: 0.987456, w: -1}
+        - {x: 0.17793827, y: -0.009800736, z: 0.9839928, w: -1}
+        - {x: 0.20173089, y: 0.07002839, z: 0.9769343, w: -1}
+        - {x: 0.14087892, y: 0.00066931825, z: 0.9900266, w: -1}
+        - {x: -0.0019410775, y: 0.0071007945, z: 0.9999729, w: -1}
+        uvs:
+        - {x: 0.5119472, y: 0.000000021714559, z: 0.5119472, w: 0.000000021714559}
+        - {x: 0.8089414, y: 0.08132918, z: 0.8089414, w: 0.08132918}
+        - {x: 1, y: 0.35822007, z: 1, w: 0.35822007}
+        - {x: 0.8387957, y: 0.8908318, z: 0.8387957, w: 0.8908318}
+        - {x: 0.16206832, y: 1, z: 0.16206832, w: 1}
+        - {x: 0.11087007, y: 0.9737127, z: 0.11087007, w: 0.9737127}
+        - {x: 0, y: 0.6688133, z: 0, w: 0.6688133}
+        - {x: 0.1920199, y: 0.0074404534, z: 0.1920199, w: 0.0074404534}
+        - {x: 0.5017861, y: 0.33612514, z: 0.5017861, w: 0.33612514}
+        triangles: 080000000300000002000000000000000800000001000000080000000200000001000000030000000800000004000000060000000500000004000000060000000800000007000000080000000000000007000000080000000600000004000000
+        aabb:
+          m_Center: {x: -0.042170245, y: 0.7419081, z: 0.0074604154}
+          m_Extent: {x: 0.14628322, y: 0.7425213, z: 0.7402656}
+        obb:
+          m_Center: {x: -0.042170245, y: 0.77735114, z: 0.20901635}
+          m_Extent: {x: 0.14628322, y: 0.7846035, z: 0.65274346}
+        obbAngle: 15.358955
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 420002
+        snapshotId: 4
+        lod: 2
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 2
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.09317137, y: 0.12016409, z: 0.46485782}
+        - {x: 0.104112975, y: 0.53135884, z: 0.747726}
+        - {x: -0.18845347, y: 1.32231, z: 0.50905806}
+        - {x: 0.08966622, y: 1.4844294, z: -0.492858}
+        - {x: 0.07488994, y: 1.4453915, z: -0.5686586}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.013630813, y: 0.010436177, z: -0.44851375}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        - {x: 0.011599261, y: 0.24781804, z: 0.000642918}
+        lastConvexPointIndex: 7
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99998456, y: 0.000000010123461, z: 0.005552943}
+        - {x: 0.989782, y: 0.036403414, z: 0.13786387}
+        - {x: 0.9637915, y: 0.15561251, z: 0.21654256}
+        - {x: 0.9045848, y: 0.39860365, z: 0.15113398}
+        - {x: 0.90232694, y: 0.4084923, z: -0.13762313}
+        - {x: 0.9026976, y: 0.39971805, z: -0.15925616}
+        - {x: 0.93406546, y: 0.2863232, z: -0.21340288}
+        - {x: 0.9900207, y: 0.0034138833, z: -0.1408804}
+        - {x: 0.98796517, y: 0.15467417, z: 0.000819427}
+        - {x: 0.99700195, y: 0.07734705, z: -0.0021225724}
+        tangents:
+        - {x: -0.0055529396, y: 0.0000000099044835, z: 0.99998456, w: -1}
+        - {x: -0.1375533, y: -0.010914516, z: 0.9904342, w: -1}
+        - {x: -0.20950519, y: -0.060484465, z: 0.97593504, w: -1}
+        - {x: -0.16105042, y: -0.008709222, z: 0.9869078, w: -1}
+        - {x: 0.09276362, y: 0.1277715, z: 0.987456, w: -1}
+        - {x: 0.17793827, y: -0.009800736, z: 0.9839928, w: -1}
+        - {x: 0.20173089, y: 0.07002839, z: 0.9769343, w: -1}
+        - {x: 0.14087895, y: 0.00066326896, z: 0.9900266, w: -1}
+        - {x: -0.0021290823, y: 0.008301703, z: 0.9999633, w: -1}
+        - {x: 0.0026245748, y: -0.006389132, z: 0.99997616, w: -1}
+        uvs:
+        - {x: 0.5119472, y: 0.000000021714559, z: 0.5119472, w: 0.000000021714559}
+        - {x: 0.8089414, y: 0.08132918, z: 0.8089414, w: 0.08132918}
+        - {x: 1, y: 0.35822007, z: 1, w: 0.35822007}
+        - {x: 0.8387957, y: 0.8908318, z: 0.8387957, w: 0.8908318}
+        - {x: 0.16206832, y: 1, z: 0.16206832, w: 1}
+        - {x: 0.11087007, y: 0.9737127, z: 0.11087007, w: 0.9737127}
+        - {x: 0, y: 0.6688133, z: 0, w: 0.6688133}
+        - {x: 0.1920199, y: 0.0074404534, z: 0.1920199, w: 0.0074404534}
+        - {x: 0.5017861, y: 0.33612514, z: 0.5017861, w: 0.33612514}
+        - {x: 0.49539524, y: 0.16728897, z: 0.49539524, w: 0.16728897}
+        triangles: 080000000900000007000000080000000300000002000000000000000900000001000000080000000200000001000000030000000800000004000000060000000500000004000000060000000800000007000000080000000600000004000000090000000800000001000000070000000900000000000000
+        aabb:
+          m_Center: {x: -0.042170245, y: 0.7419081, z: 0.0074604154}
+          m_Extent: {x: 0.14628322, y: 0.7425213, z: 0.7402656}
+        obb:
+          m_Center: {x: -0.042170245, y: 0.77735114, z: 0.20901635}
+          m_Extent: {x: 0.14628322, y: 0.7846035, z: 0.65274346}
+        obbAngle: 15.358955
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 420003
+        snapshotId: 4
+        lod: 2
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 3
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.09317137, y: 0.12016409, z: 0.46485782}
+        - {x: 0.104112975, y: 0.53135884, z: 0.747726}
+        - {x: -0.18845347, y: 1.32231, z: 0.50905806}
+        - {x: 0.08966622, y: 1.4844294, z: -0.492858}
+        - {x: 0.07488994, y: 1.4453915, z: -0.5686586}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.013630813, y: 0.010436177, z: -0.44851375}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        - {x: -0.001631959, y: 0.3716734, z: 0.012089389}
+        - {x: 0.011599261, y: 0.24781804, z: 0.000642918}
+        lastConvexPointIndex: 7
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99998456, y: 0.000000010123461, z: 0.005552943}
+        - {x: 0.989782, y: 0.036403414, z: 0.13786387}
+        - {x: 0.9637915, y: 0.15561251, z: 0.21654256}
+        - {x: 0.9045848, y: 0.39860365, z: 0.15113398}
+        - {x: 0.90232694, y: 0.4084923, z: -0.13762313}
+        - {x: 0.9026976, y: 0.39971805, z: -0.15925616}
+        - {x: 0.93406546, y: 0.2863232, z: -0.21340288}
+        - {x: 0.9900207, y: 0.0034138833, z: -0.1408804}
+        - {x: 0.98796517, y: 0.15467417, z: 0.000819427}
+        - {x: 0.99325377, y: 0.11595176, z: 0.0014417324}
+        - {x: 0.99700195, y: 0.07734705, z: -0.0021225724}
+        tangents:
+        - {x: -0.0055529396, y: 0.0000000099044835, z: 0.99998456, w: -1}
+        - {x: -0.1375528, y: -0.010927946, z: 0.99043417, w: -1}
+        - {x: -0.20950519, y: -0.060484465, z: 0.97593504, w: -1}
+        - {x: -0.16105042, y: -0.008709222, z: 0.9869078, w: -1}
+        - {x: 0.09276362, y: 0.1277715, z: 0.987456, w: -1}
+        - {x: 0.17793827, y: -0.009800736, z: 0.9839928, w: -1}
+        - {x: 0.20173089, y: 0.07002839, z: 0.9769343, w: -1}
+        - {x: 0.14087892, y: 0.00067134557, z: 0.9900266, w: -1}
+        - {x: -0.0022537499, y: 0.009098041, z: 0.9999561, w: -1}
+        - {x: -0.00021497367, y: -0.010591665, z: 0.9999439, w: -1}
+        - {x: 0.0026340606, y: -0.0065114237, z: 0.9999753, w: -1}
+        uvs:
+        - {x: 0.5119472, y: 0.000000021714559, z: 0.5119472, w: 0.000000021714559}
+        - {x: 0.8089414, y: 0.08132918, z: 0.8089414, w: 0.08132918}
+        - {x: 1, y: 0.35822007, z: 1, w: 0.35822007}
+        - {x: 0.8387957, y: 0.8908318, z: 0.8387957, w: 0.8908318}
+        - {x: 0.16206832, y: 1, z: 0.16206832, w: 1}
+        - {x: 0.11087007, y: 0.9737127, z: 0.11087007, w: 0.9737127}
+        - {x: 0, y: 0.6688133, z: 0, w: 0.6688133}
+        - {x: 0.1920199, y: 0.0074404534, z: 0.1920199, w: 0.0074404534}
+        - {x: 0.5017861, y: 0.33612514, z: 0.5017861, w: 0.33612514}
+        - {x: 0.50312656, y: 0.25069088, z: 0.50312656, w: 0.25069088}
+        - {x: 0.49539524, y: 0.16728897, z: 0.49539524, w: 0.16728897}
+        triangles: 080000000900000007000000080000000300000002000000000000000a00000001000000080000000200000001000000030000000800000004000000060000000500000004000000060000000800000007000000070000000a00000000000000080000000600000004000000090000000800000001000000090000000a000000070000000a0000000900000001000000
+        aabb:
+          m_Center: {x: -0.042170245, y: 0.7419081, z: 0.0074604154}
+          m_Extent: {x: 0.14628322, y: 0.7425213, z: 0.7402656}
+        obb:
+          m_Center: {x: -0.042170245, y: 0.77735114, z: 0.20901635}
+          m_Extent: {x: 0.14628322, y: 0.7846035, z: 0.65274346}
+        obbAngle: 15.358955
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 420004
+        snapshotId: 4
+        lod: 2
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 4
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.09317137, y: 0.12016409, z: 0.46485782}
+        - {x: 0.104112975, y: 0.53135884, z: 0.747726}
+        - {x: -0.18845347, y: 1.32231, z: 0.50905806}
+        - {x: 0.08966622, y: 1.4844294, z: -0.492858}
+        - {x: 0.07488994, y: 1.4453915, z: -0.5686586}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.013630813, y: 0.010436177, z: -0.44851375}
+        - {x: 0.07241846, y: 1.4023833, z: -0.51393306}
+        - {x: 0.07228506, y: 1.3401923, z: -0.29915637}
+        - {x: 0.03381603, y: 1.118022, z: -0.43165088}
+        - {x: 0.04118026, y: 1.0704764, z: -0.15313038}
+        - {x: 0.0054821037, y: 0.8243716, z: -0.29091993}
+        - {x: -0.17267397, y: 1.2016673, z: 0.46906304}
+        - {x: -0.14625868, y: 1.1272526, z: 0.29742736}
+        - {x: -0.092454754, y: 0.94392765, z: 0.38158697}
+        - {x: -0.07559714, y: 0.86469424, z: 0.12910356}
+        - {x: -0.039229207, y: 0.63831437, z: 0.28985003}
+        - {x: 0.047001004, y: 0.9408245, z: -0.6437945}
+        - {x: 0.055166073, y: 0.9602043, z: -0.4833513}
+        - {x: 0.03426329, y: 0.7654075, z: -0.52678204}
+        - {x: 0.023772495, y: 0.80348915, z: -0.28712332}
+        - {x: 0.020378917, y: 0.58524424, z: -0.42037976}
+        - {x: 0.0057865977, y: 0.672982, z: -0.14109913}
+        - {x: 0.0071762665, y: 0.3647991, z: -0.31560653}
+        - {x: 0.11282261, y: 0.6152988, z: 0.6331707}
+        - {x: 0.09360056, y: 0.49931434, z: 0.64945936}
+        - {x: 0.07095096, y: 0.5524052, z: 0.4224306}
+        - {x: 0.05071293, y: 0.35866258, z: 0.4873725}
+        - {x: 0.04127717, y: 0.45815536, z: 0.24781355}
+        - {x: 0.013854586, y: 0.14792562, z: 0.31489173}
+        lastConvexPointIndex: 7
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99998456, y: 0.000000010123461, z: 0.005552943}
+        - {x: 0.989782, y: 0.036403414, z: 0.13786387}
+        - {x: 0.9637915, y: 0.15561251, z: 0.21654256}
+        - {x: 0.9045848, y: 0.39860365, z: 0.15113398}
+        - {x: 0.90232694, y: 0.4084923, z: -0.13762313}
+        - {x: 0.9026976, y: 0.39971805, z: -0.15925616}
+        - {x: 0.93406546, y: 0.2863232, z: -0.21340288}
+        - {x: 0.9900207, y: 0.0034138833, z: -0.1408804}
+        - {x: 0.90894216, y: 0.39080796, z: -0.14523537}
+        - {x: 0.92147976, y: 0.3786517, z: -0.08659046}
+        - {x: 0.9370391, y: 0.3250761, z: -0.12760603}
+        - {x: 0.9481736, y: 0.31424028, z: -0.04711473}
+        - {x: 0.9643331, y: 0.24891151, z: -0.090026274}
+        - {x: 0.9197596, y: 0.3664045, z: 0.14067705}
+        - {x: 0.9340004, y: 0.34601948, z: 0.08895935}
+        - {x: 0.95021796, y: 0.28968886, z: 0.11474389}
+        - {x: 0.96283597, y: 0.26745698, z: 0.03759855}
+        - {x: 0.9763031, y: 0.19793679, z: 0.08748299}
+        - {x: 0.9428042, y: 0.27414468, z: -0.18964405}
+        - {x: 0.94894856, y: 0.280903, z: -0.14349289}
+        - {x: 0.96053374, y: 0.22815594, z: -0.1591218}
+        - {x: 0.9662964, y: 0.24172157, z: -0.08855495}
+        - {x: 0.97541666, y: 0.177965, z: -0.12996434}
+        - {x: 0.97749895, y: 0.20598987, z: -0.04543049}
+        - {x: 0.98856735, y: 0.11296171, z: -0.09987128}
+        - {x: 0.96644914, y: 0.18018712, z: 0.18305364}
+        - {x: 0.97065353, y: 0.14775147, z: 0.18974006}
+        - {x: 0.9782623, y: 0.16586731, z: 0.12446239}
+        - {x: 0.9833234, y: 0.10899169, z: 0.1455885}
+        - {x: 0.98740226, y: 0.14015962, z: 0.07343093}
+        - {x: 0.9943717, y: 0.04609189, z: 0.09539654}
+        tangents:
+        - {x: -0.005552942, y: -0.000000009990555, z: 0.99998456, w: -1}
+        - {x: -0.13710104, y: -0.022691976, z: 0.99029714, w: -1}
+        - {x: -0.21809, y: -0.007267719, z: 0.9759016, w: -1}
+        - {x: -0.16512501, y: 0.0007785078, z: 0.98627234, w: -1}
+        - {x: 0.089604855, y: 0.13454409, z: 0.98684794, w: -1}
+        - {x: 0.14773065, y: 0.059705514, z: 0.98722386, w: -1}
+        - {x: 0.19819866, y: 0.08143156, z: 0.9767734, w: -1}
+        - {x: 0.14087899, y: 0.00065196236, z: 0.9900266, w: -1}
+        - {x: 0.13165884, y: 0.06147203, z: 0.9893873, w: -1}
+        - {x: 0.04460728, y: 0.11829075, z: 0.99197656, w: -1}
+        - {x: 0.116933964, y: 0.052244533, z: 0.99176455, w: -1}
+        - {x: 0.01941361, y: 0.09070791, z: 0.9956883, w: -1}
+        - {x: 0.08751454, y: 0.021161979, z: 0.9959384, w: -1}
+        - {x: -0.09961526, y: -0.12876013, z: 0.9866598, w: -1}
+        - {x: -0.11581549, y: 0.057684947, z: 0.99159425, w: -1}
+        - {x: -0.093282714, y: -0.08688233, z: 0.9918416, w: -1}
+        - {x: -0.05269548, y: 0.049491804, z: 0.9973835, w: -1}
+        - {x: -0.08198408, y: -0.03582371, z: 0.9959896, w: -1}
+        - {x: 0.18258554, y: 0.05128628, z: 0.98185146, w: -1}
+        - {x: 0.12852764, y: 0.071094014, z: 0.98915434, w: -1}
+        - {x: 0.151622, y: 0.05014777, z: 0.98716563, w: -1}
+        - {x: 0.08088187, y: 0.04150394, z: 0.9958592, w: -1}
+        - {x: 0.12517199, y: 0.03794549, z: 0.9914092, w: -1}
+        - {x: 0.041820925, y: 0.021845618, z: 0.9988863, w: -1}
+        - {x: 0.099137925, y: 0.012105102, z: 0.99500006, w: -1}
+        - {x: -0.181819, y: -0.023488471, z: 0.9830514, w: -1}
+        - {x: -0.18392166, y: -0.05222072, z: 0.9815528, w: -1}
+        - {x: -0.11420949, y: -0.07001785, z: 0.9909862, w: -1}
+        - {x: -0.14169456, y: -0.04269962, z: 0.98898906, w: -1}
+        - {x: -0.07188083, y: -0.01609704, z: 0.99728334, w: -1}
+        - {x: -0.0949583, y: -0.011611139, z: 0.99541354, w: -1}
+        uvs:
+        - {x: 0.5119472, y: 0.000000021714559, z: 0.5119472, w: 0.000000021714559}
+        - {x: 0.8089414, y: 0.08132918, z: 0.8089414, w: 0.08132918}
+        - {x: 1, y: 0.35822007, z: 1, w: 0.35822007}
+        - {x: 0.8387957, y: 0.8908318, z: 0.8387957, w: 0.8908318}
+        - {x: 0.16206832, y: 1, z: 0.16206832, w: 1}
+        - {x: 0.11087007, y: 0.9737127, z: 0.11087007, w: 0.9737127}
+        - {x: 0, y: 0.6688133, z: 0, w: 0.6688133}
+        - {x: 0.1920199, y: 0.0074404534, z: 0.1920199, w: 0.0074404534}
+        - {x: 0.14783351, y: 0.94475174, z: 0.14783351, w: 0.94475174}
+        - {x: 0.29290083, y: 0.90287346, z: 0.29290083, w: 0.90287346}
+        - {x: 0.20340964, y: 0.75326806, z: 0.20340964, w: 0.75326806}
+        - {x: 0.39153165, y: 0.7212518, z: 0.39153165, w: 0.7212518}
+        - {x: 0.298464, y: 0.5555294, z: 0.298464, w: 0.5555294}
+        - {x: 0.81178176, y: 0.8095933, z: 0.81178176, w: 0.8095933}
+        - {x: 0.6958533, y: 0.7594838, z: 0.6958533, w: 0.7594838}
+        - {x: 0.7526975, y: 0.6360362, z: 0.7526975, w: 0.6360362}
+        - {x: 0.58216184, y: 0.5826819, z: 0.58216184, w: 0.5826819}
+        - {x: 0.69073534, y: 0.43024194, z: 0.69073534, w: 0.43024194}
+        - {x: 0.060120795, y: 0.6339466, z: 0.060120795, w: 0.6339466}
+        - {x: 0.16848946, y: 0.6469966, z: 0.16848946, w: 0.6469966}
+        - {x: 0.1391549, y: 0.5158241, z: 0.1391549, w: 0.5158241}
+        - {x: 0.30102834, y: 0.54146755, z: 0.30102834, w: 0.54146755}
+        - {x: 0.21102253, y: 0.3945055, z: 0.21102253, w: 0.3945055}
+        - {x: 0.39965793, y: 0.45358646, z: 0.39965793, w: 0.45358646}
+        - {x: 0.28178984, y: 0.24606185, z: 0.28178984, w: 0.24606185}
+        - {x: 0.92262554, y: 0.4147437, z: 0.92262554, w: 0.4147437}
+        - {x: 0.9336274, y: 0.3366419, z: 0.9336274, w: 0.3366419}
+        - {x: 0.78028464, y: 0.37239227, z: 0.78028464, w: 0.37239227}
+        - {x: 0.8241486, y: 0.24192962, z: 0.8241486, w: 0.24192962}
+        - {x: 0.6623425, y: 0.30892622, z: 0.6623425, w: 0.30892622}
+        - {x: 0.70764935, y: 0.10002328, z: 0.70764935, w: 0.10002328}
+        triangles: 110000001700000010000000020000000d000000030000001500000016000000140000001a0000001b000000190000000c00000015000000140000000400000008000000050000000b0000000c0000000a000000080000000600000005000000030000000900000004000000090000000a000000080000000900000008000000040000000a00000006000000080000000d0000000e00000003000000100000000b0000000e0000000b0000000a000000090000000f000000100000000e0000000c000000130000000a000000170000001d000000180000000e00000009000000030000000e0000000b0000000900000002000000190000000d0000000f0000000e0000000d00000012000000140000000600000010000000170000000b000000010000001c0000001a0000001c0000001d0000001b00000011000000100000000f00000012000000060000000a000000190000000f0000000d0000000c00000014000000130000000a0000001300000012000000140000000700000006000000140000001200000013000000110000001d00000017000000170000000c0000000b00000007000000180000000000000014000000160000000700000015000000170000001600000017000000150000000c0000001600000018000000070000001800000016000000170000001b000000110000000f000000190000001b0000000f000000020000001a00000019000000010000001a000000020000001d000000110000001b000000000000001e000000010000001a0000001c0000001b000000010000001e0000001c0000001d00000000000000180000001d0000001e000000000000001e0000001d0000001c000000
+        aabb:
+          m_Center: {x: -0.042170245, y: 0.7419081, z: 0.0074604154}
+          m_Extent: {x: 0.14628322, y: 0.7425213, z: 0.7402656}
+        obb:
+          m_Center: {x: -0.042170245, y: 0.77735114, z: 0.20901635}
+          m_Extent: {x: 0.14628322, y: 0.7846035, z: 0.65274346}
+        obbAngle: 15.358955
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 410000
+        snapshotId: 4
+        lod: 1
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 0
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.0499266, y: 0.08287457, z: 0.3290993}
+        - {x: 0.12026456, y: 0.5142108, z: 0.7555719}
+        - {x: 0.104537345, y: 0.6910943, z: 0.6746413}
+        - {x: 0.09530014, y: 1.5073981, z: -0.40579098}
+        - {x: 0.07241846, y: 1.4568244, z: -0.56451386}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.03260789, y: 0.50066495, z: -0.5904121}
+        - {x: -0.0053462638, y: 0.0008910155, z: -0.039333034}
+        lastConvexPointIndex: 8
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99999005, y: 0.000000010442606, z: 0.0044576298}
+        - {x: 0.9945832, y: 0.026416942, z: 0.100530684}
+        - {x: 0.9625664, y: 0.15420441, z: 0.22290559}
+        - {x: 0.9579126, y: 0.20719835, z: 0.1986764}
+        - {x: 0.8977436, y: 0.4245718, z: -0.117453}
+        - {x: 0.8962077, y: 0.4125918, z: -0.16303302}
+        - {x: 0.9301045, y: 0.2939388, z: -0.22023994}
+        - {x: 0.9700157, y: 0.15555197, z: -0.18674356}
+        - {x: 0.99986506, y: 0.00048705543, z: -0.016421508}
+        tangents:
+        - {x: -0.0044576256, y: 0.000000010985646, z: 0.99999005, w: -1}
+        - {x: -0.10045384, y: -0.004223563, z: 0.9949328, w: -1}
+        - {x: -0.2153506, y: -0.06429118, z: 0.97441816, w: -1}
+        - {x: -0.19159484, y: -0.05391099, z: 0.97999233, w: -1}
+        - {x: 0.11572567, y: 0.029956795, z: 0.9928294, w: -1}
+        - {x: 0.17296417, y: 0.013449164, z: 0.9848363, w: -1}
+        - {x: 0.21560718, y: 0.048504133, z: 0.9752748, w: -1}
+        - {x: 0.18566786, y: 0.021547241, z: 0.9823763, w: -1}
+        - {x: 0.016421506, y: 0.0000071109503, z: 0.9998652, w: -1}
+        uvs:
+        - {x: 0.5092485, y: 0.000000021383821, z: 0.5092485, w: 0.000000021383821}
+        - {x: 0.7134647, y: 0.05536283, z: 0.7134647, w: 0.05536283}
+        - {x: 1, y: 0.34139267, z: 1, w: 0.34139267}
+        - {x: 0.94562495, y: 0.45868853, z: 0.94562495, w: 0.45868853}
+        - {x: 0.21971193, y: 1, z: 0.21971193, w: 1}
+        - {x: 0.11307036, y: 0.9664633, z: 0.11307036, w: 0.9664633}
+        - {x: 0, y: 0.6586265, z: 0, w: 0.6586265}
+        - {x: 0.09567005, y: 0.33241007, z: 0.09567005, w: 0.33241007}
+        - {x: 0.46592504, y: 0.0009974912, z: 0.46592504, w: 0.0009974912}
+        triangles: 070000000300000001000000000000000700000001000000030000000200000001000000030000000700000004000000060000000500000004000000070000000600000004000000000000000800000007000000
+        aabb:
+          m_Center: {x: 0.05745915, y: 0.75339246, z: 0.011383355}
+          m_Extent: {x: 0.062805414, y: 0.7540057, z: 0.74418855}
+        obb:
+          m_Center: {x: 0.05745915, y: -0.467548, z: 0.51787186}
+          m_Extent: {x: 0.062805414, y: 0.49054796, z: 0.8107462}
+        obbAngle: 142.92769
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 410001
+        snapshotId: 4
+        lod: 1
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 1
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.0499266, y: 0.08287457, z: 0.3290993}
+        - {x: 0.12026456, y: 0.5142108, z: 0.7555719}
+        - {x: 0.104537345, y: 0.6910943, z: 0.6746413}
+        - {x: 0.09530014, y: 1.5073981, z: -0.40579098}
+        - {x: 0.07241846, y: 1.4568244, z: -0.56451386}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.03260789, y: 0.50066495, z: -0.5904121}
+        - {x: -0.0053462638, y: 0.0008910155, z: -0.039333034}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        lastConvexPointIndex: 8
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99999005, y: 0.000000010442606, z: 0.0044576298}
+        - {x: 0.9945832, y: 0.026416942, z: 0.100530684}
+        - {x: 0.9625664, y: 0.15420441, z: 0.22290559}
+        - {x: 0.9579126, y: 0.20719835, z: 0.1986764}
+        - {x: 0.8977436, y: 0.4245718, z: -0.117453}
+        - {x: 0.8962077, y: 0.4125918, z: -0.16303302}
+        - {x: 0.9301045, y: 0.2939388, z: -0.22023994}
+        - {x: 0.9700157, y: 0.15555197, z: -0.18674356}
+        - {x: 0.99986506, y: 0.00048705543, z: -0.016421508}
+        - {x: 0.98721033, y: 0.15942281, z: -0.00040833242}
+        tangents:
+        - {x: -0.004457624, y: -0.000000038299884, z: 0.99999005, w: -1}
+        - {x: -0.100373775, y: -0.007203518, z: 0.9949237, w: -1}
+        - {x: -0.2153506, y: -0.06429118, z: 0.97441816, w: -1}
+        - {x: -0.18780266, y: -0.0710957, z: 0.9796303, w: -1}
+        - {x: 0.11570509, y: 0.030000618, z: 0.99283046, w: -1}
+        - {x: 0.17296417, y: 0.013449164, z: 0.9848363, w: -1}
+        - {x: 0.20859419, y: 0.07081534, z: 0.97543514, w: -1}
+        - {x: 0.18287946, y: 0.038921498, z: 0.9823646, w: -1}
+        - {x: 0.016421497, y: 0.000032038766, z: 0.9998652, w: -1}
+        - {x: 0.0022125507, y: -0.0111398725, z: 0.9999355, w: -1}
+        uvs:
+        - {x: 0.5092485, y: 0.000000021383821, z: 0.5092485, w: 0.000000021383821}
+        - {x: 0.7134647, y: 0.05536283, z: 0.7134647, w: 0.05536283}
+        - {x: 1, y: 0.34139267, z: 1, w: 0.34139267}
+        - {x: 0.94562495, y: 0.45868853, z: 0.94562495, w: 0.45868853}
+        - {x: 0.21971193, y: 1, z: 0.21971193, w: 1}
+        - {x: 0.11307036, y: 0.9664633, z: 0.11307036, w: 0.9664633}
+        - {x: 0, y: 0.6586265, z: 0, w: 0.6586265}
+        - {x: 0.09567005, y: 0.33241007, z: 0.09567005, w: 0.33241007}
+        - {x: 0.46592504, y: 0.0009974912, z: 0.46592504, w: 0.0009974912}
+        - {x: 0.499141, y: 0.33100557, z: 0.499141, w: 0.33100557}
+        triangles: 090000000000000008000000030000000200000001000000090000000100000000000000030000000900000004000000060000000500000004000000040000000900000006000000070000000900000008000000090000000700000006000000010000000900000003000000
+        aabb:
+          m_Center: {x: 0.05745915, y: 0.75339246, z: 0.011383355}
+          m_Extent: {x: 0.062805414, y: 0.7540057, z: 0.74418855}
+        obb:
+          m_Center: {x: 0.05745915, y: -0.467548, z: 0.51787186}
+          m_Extent: {x: 0.062805414, y: 0.49054796, z: 0.8107462}
+        obbAngle: 142.92769
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 410002
+        snapshotId: 4
+        lod: 1
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 2
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.0499266, y: 0.08287457, z: 0.3290993}
+        - {x: 0.12026456, y: 0.5142108, z: 0.7555719}
+        - {x: 0.104537345, y: 0.6910943, z: 0.6746413}
+        - {x: 0.09530014, y: 1.5073981, z: -0.40579098}
+        - {x: 0.07241846, y: 1.4568244, z: -0.56451386}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.03260789, y: 0.50066495, z: -0.5904121}
+        - {x: -0.0053462638, y: 0.0008910155, z: -0.039333034}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        - {x: 0.011599261, y: 0.24781804, z: 0.000642918}
+        lastConvexPointIndex: 8
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99999005, y: 0.000000010442606, z: 0.0044576298}
+        - {x: 0.9945832, y: 0.026416942, z: 0.100530684}
+        - {x: 0.9625664, y: 0.15420441, z: 0.22290559}
+        - {x: 0.9579126, y: 0.20719835, z: 0.1986764}
+        - {x: 0.8977436, y: 0.4245718, z: -0.117453}
+        - {x: 0.8962077, y: 0.4125918, z: -0.16303302}
+        - {x: 0.9301045, y: 0.2939388, z: -0.22023994}
+        - {x: 0.9700157, y: 0.15555197, z: -0.18674356}
+        - {x: 0.99986506, y: 0.00048705543, z: -0.016421508}
+        - {x: 0.98721033, y: 0.15942281, z: -0.00040833242}
+        - {x: 0.9968084, y: 0.079756215, z: -0.003448103}
+        tangents:
+        - {x: -0.0044576246, y: 0.0000000106424, z: 0.99999005, w: -1}
+        - {x: -0.10038172, y: -0.006909133, z: 0.994925, w: -1}
+        - {x: -0.2153506, y: -0.06429118, z: 0.97441816, w: -1}
+        - {x: -0.18780266, y: -0.0710957, z: 0.9796303, w: -1}
+        - {x: 0.11570509, y: 0.030000618, z: 0.99283046, w: -1}
+        - {x: 0.17296417, y: 0.013449164, z: 0.9848363, w: -1}
+        - {x: 0.20859419, y: 0.07081534, z: 0.97543514, w: -1}
+        - {x: 0.18298754, y: 0.038254824, z: 0.9823707, w: -1}
+        - {x: 0.016421506, y: 0.0000103977345, z: 0.9998652, w: -1}
+        - {x: 0.002402501, y: -0.01231616, z: 0.99992126, w: -1}
+        - {x: 0.003568519, y: -0.0013673033, z: 0.99999267, w: -1}
+        uvs:
+        - {x: 0.5092485, y: 0.000000021383821, z: 0.5092485, w: 0.000000021383821}
+        - {x: 0.7134647, y: 0.05536283, z: 0.7134647, w: 0.05536283}
+        - {x: 1, y: 0.34139267, z: 1, w: 0.34139267}
+        - {x: 0.94562495, y: 0.45868853, z: 0.94562495, w: 0.45868853}
+        - {x: 0.21971193, y: 1, z: 0.21971193, w: 1}
+        - {x: 0.11307036, y: 0.9664633, z: 0.11307036, w: 0.9664633}
+        - {x: 0, y: 0.6586265, z: 0, w: 0.6586265}
+        - {x: 0.09567005, y: 0.33241007, z: 0.09567005, w: 0.33241007}
+        - {x: 0.46592504, y: 0.0009974912, z: 0.46592504, w: 0.0009974912}
+        - {x: 0.499141, y: 0.33100557, z: 0.499141, w: 0.33100557}
+        - {x: 0.49278378, y: 0.16474096, z: 0.49278378, w: 0.16474096}
+        triangles: 0a0000000800000007000000030000000200000001000000000000000a00000001000000030000000900000004000000060000000500000004000000040000000900000006000000090000000a000000070000000900000007000000060000000100000009000000030000000a0000000900000001000000080000000a00000000000000
+        aabb:
+          m_Center: {x: 0.05745915, y: 0.75339246, z: 0.011383355}
+          m_Extent: {x: 0.062805414, y: 0.7540057, z: 0.74418855}
+        obb:
+          m_Center: {x: 0.05745915, y: -0.467548, z: 0.51787186}
+          m_Extent: {x: 0.062805414, y: 0.49054796, z: 0.8107462}
+        obbAngle: 142.92769
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 410003
+        snapshotId: 4
+        lod: 1
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 3
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.0499266, y: 0.08287457, z: 0.3290993}
+        - {x: 0.12026456, y: 0.5142108, z: 0.7555719}
+        - {x: 0.104537345, y: 0.6910943, z: 0.6746413}
+        - {x: 0.09530014, y: 1.5073981, z: -0.40579098}
+        - {x: 0.07241846, y: 1.4568244, z: -0.56451386}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.03260789, y: 0.50066495, z: -0.5904121}
+        - {x: -0.0053462638, y: 0.0008910155, z: -0.039333034}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        - {x: -0.001631959, y: 0.3716734, z: 0.012089389}
+        - {x: 0.011599261, y: 0.24781804, z: 0.000642918}
+        lastConvexPointIndex: 8
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99999005, y: 0.000000010442606, z: 0.0044576298}
+        - {x: 0.9945832, y: 0.026416942, z: 0.100530684}
+        - {x: 0.9625664, y: 0.15420441, z: 0.22290559}
+        - {x: 0.9579126, y: 0.20719835, z: 0.1986764}
+        - {x: 0.8977436, y: 0.4245718, z: -0.117453}
+        - {x: 0.8962077, y: 0.4125918, z: -0.16303302}
+        - {x: 0.9301045, y: 0.2939388, z: -0.22023994}
+        - {x: 0.9700157, y: 0.15555197, z: -0.18674356}
+        - {x: 0.99986506, y: 0.00048705543, z: -0.016421508}
+        - {x: 0.98721033, y: 0.15942281, z: -0.00040833242}
+        - {x: 0.992828, y: 0.119550854, z: 0.000226726}
+        - {x: 0.9968084, y: 0.079756215, z: -0.003448103}
+        tangents:
+        - {x: -0.0044576246, y: 0.0000000106424, z: 0.99999005, w: -1}
+        - {x: -0.10037947, y: -0.0069927415, z: 0.99492466, w: -1}
+        - {x: -0.2153506, y: -0.06429118, z: 0.97441816, w: -1}
+        - {x: -0.18780266, y: -0.0710957, z: 0.9796303, w: -1}
+        - {x: 0.11570509, y: 0.030000618, z: 0.99283046, w: -1}
+        - {x: 0.17296417, y: 0.013449164, z: 0.9848363, w: -1}
+        - {x: 0.20859419, y: 0.07081534, z: 0.97543514, w: -1}
+        - {x: 0.18298088, y: 0.038295966, z: 0.9823703, w: -1}
+        - {x: 0.016421506, y: 0.0000103977345, z: 0.9998652, w: -1}
+        - {x: 0.0025878458, y: -0.01346393, z: 0.999906, w: -1}
+        - {x: -0.00018815276, y: -0.00033393674, z: 0.99999994, w: -1}
+        - {x: 0.0035337897, y: -0.000933227, z: 0.9999933, w: -1}
+        uvs:
+        - {x: 0.5092485, y: 0.000000021383821, z: 0.5092485, w: 0.000000021383821}
+        - {x: 0.7134647, y: 0.05536283, z: 0.7134647, w: 0.05536283}
+        - {x: 1, y: 0.34139267, z: 1, w: 0.34139267}
+        - {x: 0.94562495, y: 0.45868853, z: 0.94562495, w: 0.45868853}
+        - {x: 0.21971193, y: 1, z: 0.21971193, w: 1}
+        - {x: 0.11307036, y: 0.9664633, z: 0.11307036, w: 0.9664633}
+        - {x: 0, y: 0.6586265, z: 0, w: 0.6586265}
+        - {x: 0.09567005, y: 0.33241007, z: 0.09567005, w: 0.33241007}
+        - {x: 0.46592504, y: 0.0009974912, z: 0.46592504, w: 0.0009974912}
+        - {x: 0.499141, y: 0.33100557, z: 0.499141, w: 0.33100557}
+        - {x: 0.5004744, y: 0.24687256, z: 0.5004744, w: 0.24687256}
+        - {x: 0.49278378, y: 0.16474096, z: 0.49278378, w: 0.16474096}
+        triangles: 0a0000000b00000007000000080000000b00000000000000030000000200000001000000000000000b00000001000000030000000900000004000000060000000500000004000000040000000900000006000000090000000a000000070000000900000007000000060000000100000009000000030000000a00000009000000010000000b00000008000000070000000b0000000a00000001000000
+        aabb:
+          m_Center: {x: 0.05745915, y: 0.75339246, z: 0.011383355}
+          m_Extent: {x: 0.062805414, y: 0.7540057, z: 0.74418855}
+        obb:
+          m_Center: {x: 0.05745915, y: -0.467548, z: 0.51787186}
+          m_Extent: {x: 0.062805414, y: 0.49054796, z: 0.8107462}
+        obbAngle: 142.92769
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 410004
+        snapshotId: 4
+        lod: 1
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 4
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.0499266, y: 0.08287457, z: 0.3290993}
+        - {x: 0.12026456, y: 0.5142108, z: 0.7555719}
+        - {x: 0.104537345, y: 0.6910943, z: 0.6746413}
+        - {x: 0.09530014, y: 1.5073981, z: -0.40579098}
+        - {x: 0.07241846, y: 1.4568244, z: -0.56451386}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.03260789, y: 0.50066495, z: -0.5904121}
+        - {x: -0.0053462638, y: 0.0008910155, z: -0.039333034}
+        - {x: 0.047001004, y: 0.9408245, z: -0.6437945}
+        - {x: 0.055166073, y: 0.9602043, z: -0.4833513}
+        - {x: 0.03426329, y: 0.7654075, z: -0.52678204}
+        - {x: 0.023772495, y: 0.80348915, z: -0.28712332}
+        - {x: 0.020378917, y: 0.58524424, z: -0.42037976}
+        - {x: 0.0057865977, y: 0.672982, z: -0.14109913}
+        - {x: 0.0071762665, y: 0.3647991, z: -0.31560653}
+        - {x: 0.07241846, y: 1.4023833, z: -0.51393306}
+        - {x: 0.07228506, y: 1.3401923, z: -0.29915637}
+        - {x: 0.03381603, y: 1.118022, z: -0.43165088}
+        - {x: 0.04118026, y: 1.0704764, z: -0.15313038}
+        - {x: 0.0054821037, y: 0.8243716, z: -0.29091993}
+        - {x: 0.11282261, y: 0.6152988, z: 0.6331707}
+        - {x: 0.09360056, y: 0.49931434, z: 0.64945936}
+        - {x: 0.07095096, y: 0.5524052, z: 0.4224306}
+        - {x: 0.05071293, y: 0.35866258, z: 0.4873725}
+        - {x: 0.04127717, y: 0.45815536, z: 0.24781355}
+        - {x: 0.013854586, y: 0.14792562, z: 0.31489173}
+        lastConvexPointIndex: 8
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99999005, y: 0.000000010442606, z: 0.0044576298}
+        - {x: 0.9945832, y: 0.026416942, z: 0.100530684}
+        - {x: 0.9625664, y: 0.15420441, z: 0.22290559}
+        - {x: 0.9579126, y: 0.20719835, z: 0.1986764}
+        - {x: 0.8977436, y: 0.4245718, z: -0.117453}
+        - {x: 0.8962077, y: 0.4125918, z: -0.16303302}
+        - {x: 0.9301045, y: 0.2939388, z: -0.22023994}
+        - {x: 0.9700157, y: 0.15555197, z: -0.18674356}
+        - {x: 0.99986506, y: 0.00048705543, z: -0.016421508}
+        - {x: 0.9393086, y: 0.28159362, z: -0.19597036}
+        - {x: 0.9458333, y: 0.28863615, z: -0.14862166}
+        - {x: 0.95800436, y: 0.23463677, z: -0.1648433}
+        - {x: 0.9641646, y: 0.24871945, z: -0.09233205}
+        - {x: 0.9737557, y: 0.18321554, z: -0.13502553}
+        - {x: 0.9760573, y: 0.21214594, z: -0.04802371}
+        - {x: 0.98772365, y: 0.116408415, z: -0.10416828}
+        - {x: 0.9038983, y: 0.40058815, z: -0.14999007}
+        - {x: 0.91707665, y: 0.38842905, z: -0.08996282}
+        - {x: 0.93330365, y: 0.33385786, z: -0.13222404}
+        - {x: 0.9451143, y: 0.3229526, z: -0.049603824}
+        - {x: 0.9620756, y: 0.25612867, z: -0.09385451}
+        - {x: 0.9647037, y: 0.18532193, z: 0.18708976}
+        - {x: 0.96914256, y: 0.15202692, z: 0.19403757}
+        - {x: 0.9771019, y: 0.17076653, z: 0.12692727}
+        - {x: 0.9824823, y: 0.1122697, z: 0.14874132}
+        - {x: 0.9867151, y: 0.14441112, z: 0.07442347}
+        - {x: 0.9941387, y: 0.047524575, z: 0.097106636}
+        tangents:
+        - {x: -0.004457629, y: -0.00000024517294, z: 0.99999005, w: -1}
+        - {x: -0.100189716, y: -0.013931822, z: 0.9948708, w: -1}
+        - {x: -0.21323946, y: -0.07682791, z: 0.9739745, w: -1}
+        - {x: -0.1889108, y: -0.06610354, z: 0.97976685, w: -1}
+        - {x: 0.12882327, y: 0.0019404296, z: 0.99166566, w: -1}
+        - {x: 0.15811811, y: 0.04628897, z: 0.9863346, w: -1}
+        - {x: 0.2042069, y: 0.084572524, z: 0.97526765, w: -1}
+        - {x: 0.18219122, y: 0.0431546, z: 0.98231566, w: -1}
+        - {x: 0.016421514, y: -0.00001064496, z: 0.9998652, w: -1}
+        - {x: 0.1868533, y: 0.059151433, z: 0.9806054, w: -1}
+        - {x: 0.13255115, y: 0.074562795, z: 0.9883676, w: -1}
+        - {x: 0.15575407, y: 0.05688882, z: 0.98615634, w: -1}
+        - {x: 0.08407618, y: 0.043637868, z: 0.99550337, w: -1}
+        - {x: 0.13024499, y: 0.037936367, z: 0.9907558, w: -1}
+        - {x: 0.050812133, y: -0.007708408, z: 0.9986785, w: -1}
+        - {x: 0.103345096, y: 0.0131015135, z: 0.9945593, w: -1}
+        - {x: 0.13783206, y: 0.059180286, z: 0.988686, w: -1}
+        - {x: 0.10570625, y: -0.019305462, z: 0.99421, w: -1}
+        - {x: 0.12066868, y: 0.05521551, z: 0.99115604, w: -1}
+        - {x: 0.06075372, y: -0.024529828, z: 0.9978513, w: -1}
+        - {x: 0.09106146, y: 0.022770295, z: 0.9955849, w: -1}
+        - {x: -0.17798898, y: -0.06473575, z: 0.9819008, w: -1}
+        - {x: -0.1870155, y: -0.059340864, z: 0.98056304, w: -1}
+        - {x: -0.121578, y: -0.041469395, z: 0.9917152, w: -1}
+        - {x: -0.14471619, y: -0.043234073, z: 0.9885282, w: -1}
+        - {x: -0.07203764, y: -0.021687727, z: 0.9971661, w: -1}
+        - {x: -0.096726835, y: -0.010232986, z: 0.9952584, w: -1}
+        uvs:
+        - {x: 0.5092485, y: 0.000000021383821, z: 0.5092485, w: 0.000000021383821}
+        - {x: 0.7134647, y: 0.05536283, z: 0.7134647, w: 0.05536283}
+        - {x: 1, y: 0.34139267, z: 1, w: 0.34139267}
+        - {x: 0.94562495, y: 0.45868853, z: 0.94562495, w: 0.45868853}
+        - {x: 0.21971193, y: 1, z: 0.21971193, w: 1}
+        - {x: 0.11307036, y: 0.9664633, z: 0.11307036, w: 0.9664633}
+        - {x: 0, y: 0.6586265, z: 0, w: 0.6586265}
+        - {x: 0.09567005, y: 0.33241007, z: 0.09567005, w: 0.33241007}
+        - {x: 0.46592504, y: 0.0009974912, z: 0.46592504, w: 0.0009974912}
+        - {x: 0.059803873, y: 0.6242909, z: 0.059803873, w: 0.6242909}
+        - {x: 0.16760127, y: 0.6371421, z: 0.16760127, w: 0.6371421}
+        - {x: 0.13842134, y: 0.5079675, z: 0.13842134, w: 0.5079675}
+        - {x: 0.2994415, y: 0.53322035, z: 0.2994415, w: 0.53322035}
+        - {x: 0.20991014, y: 0.38849673, z: 0.20991014, w: 0.38849673}
+        - {x: 0.39755118, y: 0.4466778, z: 0.39755118, w: 0.4466778}
+        - {x: 0.2803044, y: 0.24231404, z: 0.2803044, w: 0.24231404}
+        - {x: 0.14705423, y: 0.93036205, z: 0.14705423, w: 0.93036205}
+        - {x: 0.29135683, y: 0.88912165, z: 0.29135683, w: 0.88912165}
+        - {x: 0.20233737, y: 0.74179494, z: 0.20233737, w: 0.74179494}
+        - {x: 0.38946772, y: 0.7102663, z: 0.38946772, w: 0.7102663}
+        - {x: 0.29689068, y: 0.547068, z: 0.29689068, w: 0.547068}
+        - {x: 0.917762, y: 0.40842664, z: 0.917762, w: 0.40842664}
+        - {x: 0.9287059, y: 0.33151445, z: 0.9287059, w: 0.33151445}
+        - {x: 0.77617145, y: 0.36672032, z: 0.77617145, w: 0.36672032}
+        - {x: 0.81980413, y: 0.23824476, z: 0.81980413, w: 0.23824476}
+        - {x: 0.658851, y: 0.3042209, z: 0.658851, w: 0.3042209}
+        - {x: 0.703919, y: 0.098499805, z: 0.703919, w: 0.098499805}
+        triangles: 0e000000190000000f0000001900000000000000080000000100000018000000020000000c0000000d0000000b0000000a0000000b000000090000000300000011000000040000000f0000001900000008000000070000000f000000080000000600000009000000070000000500000010000000060000000600000012000000090000001100000012000000100000000b00000007000000090000000d000000070000000b0000000a000000140000000b0000000300000017000000130000000c0000000e0000000d0000000400000010000000050000001300000014000000120000001500000017000000030000000d0000000f000000070000000f0000000d0000000e000000040000001100000010000000100000001200000006000000140000000a00000012000000010000001a00000018000000110000001300000012000000120000000a000000090000000c000000140000000e00000003000000130000001100000014000000130000000e000000140000000c0000000b000000020000001500000003000000170000000e00000013000000190000001a0000000000000002000000160000001500000016000000170000001500000016000000180000001700000018000000160000000200000017000000190000000e0000001900000017000000180000001a0000001900000018000000000000001a00000001000000
+        aabb:
+          m_Center: {x: 0.05745915, y: 0.75339246, z: 0.011383355}
+          m_Extent: {x: 0.062805414, y: 0.7540057, z: 0.74418855}
+        obb:
+          m_Center: {x: 0.05745915, y: -0.467548, z: 0.51787186}
+          m_Extent: {x: 0.062805414, y: 0.49054796, z: 0.8107462}
+        obbAngle: 142.92769
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 410010
+        snapshotId: 4
+        lod: 1
+        fragment: 1
+        fragmentOffset: {x: -0.0025540176, y: 0.3715298, z: 0.014094809}
+        resolution: 0
+        points:
+        - {x: -0.0025540176, y: 0.35786682, z: 0.0423423}
+        - {x: -0.044071242, y: 0.6383134, z: 0.36121026}
+        - {x: -0.17688587, y: 1.3212221, z: 0.5352428}
+        - {x: -0.14951876, y: 1.3250299, z: 0.44359267}
+        - {x: -0.111899644, y: 1.1554801, z: 0.10332891}
+        - {x: -0.027580509, y: 0.40368247, z: -0.052379362}
+        lastConvexPointIndex: 5
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99805075, y: 0, z: -0.062408507}
+        - {x: 0.995324, y: 0.08882967, z: 0.037939087}
+        - {x: 0.9483064, y: 0.30355233, z: 0.09257959}
+        - {x: 0.9509358, y: 0.30284324, z: 0.06330171}
+        - {x: 0.9670442, y: 0.25087598, z: -0.043437935}
+        - {x: 0.99559844, y: 0.01444003, z: -0.09260248}
+        tangents:
+        - {x: 0.062408496, y: 0.00000001071204, z: 0.9980507, w: -1}
+        - {x: -0.037707463, y: -0.004284753, z: 0.9992796, w: -1}
+        - {x: -0.11528667, y: 0.057717104, z: 0.99165404, w: -1}
+        - {x: -0.07145463, y: 0.01590555, z: 0.997317, w: -1}
+        - {x: 0.041128263, y: 0.014444599, z: 0.9990495, w: -1}
+        - {x: 0.092601426, y: 0.00074304163, z: 0.995703, w: -1}
+        uvs:
+        - {x: 0.16119486, y: 0.000000030814164, z: 0.16119486, w: 0.000000030814164}
+        - {x: 0.70383596, y: 0.28996828, z: 0.70383596, w: 0.28996828}
+        - {x: 1, y: 0.99606293, z: 1, w: 0.99606293}
+        - {x: 0.8440322, y: 1, z: 0.8440322, w: 1}
+        - {x: 0.2649803, y: 0.8246938, z: 0.2649803, w: 0.8246938}
+        - {x: 0.000000012679203, y: 0.0473712, z: 0.000000012679203, w: 0.0473712}
+        triangles: 000000000500000001000000030000000200000001000000040000000300000001000000050000000400000001000000
+        aabb:
+          m_Center: {x: -0.08971994, y: 0.8414483, z: 0.24143171}
+          m_Extent: {x: 0.08716593, y: 0.4835815, z: 0.29381108}
+        obb:
+          m_Center: {x: -0.08971994, y: -0.0035895482, z: 0.8848594}
+          m_Extent: {x: 0.08716593, y: 0.18880373, z: 0.5276198}
+        obbAngle: 75.70305
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 410011
+        snapshotId: 4
+        lod: 1
+        fragment: 1
+        fragmentOffset: {x: -0.0025540176, y: 0.3715298, z: 0.014094809}
+        resolution: 1
+        points:
+        - {x: -0.0025540176, y: 0.35786682, z: 0.0423423}
+        - {x: -0.044071242, y: 0.6383134, z: 0.36121026}
+        - {x: -0.17688587, y: 1.3212221, z: 0.5352428}
+        - {x: -0.14951876, y: 1.3250299, z: 0.44359267}
+        - {x: -0.111899644, y: 1.1554801, z: 0.10332891}
+        - {x: -0.027580509, y: 0.40368247, z: -0.052379362}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        lastConvexPointIndex: 5
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99805075, y: 0, z: -0.062408507}
+        - {x: 0.995324, y: 0.08882967, z: 0.037939087}
+        - {x: 0.9483064, y: 0.30355233, z: 0.09257959}
+        - {x: 0.9509358, y: 0.30284324, z: 0.06330171}
+        - {x: 0.9670442, y: 0.25087598, z: -0.043437935}
+        - {x: 0.99559844, y: 0.01444003, z: -0.09260248}
+        - {x: 0.9964044, y: 0.044023275, z: -0.07238951}
+        tangents:
+        - {x: 0.062408518, y: 0.000000012502306, z: 0.9980507, w: -1}
+        - {x: -0.03823574, y: 0.0016397124, z: 0.9992674, w: -1}
+        - {x: -0.11528667, y: 0.057717104, z: 0.99165404, w: -1}
+        - {x: -0.07145463, y: 0.01590555, z: 0.997317, w: -1}
+        - {x: 0.039658003, y: 0.02010531, z: 0.99901104, w: -1}
+        - {x: 0.092697665, y: -0.006066133, z: 0.9956758, w: -1}
+        - {x: 0.07248246, y: -0.0005167279, z: 0.9973695, w: -1}
+        uvs:
+        - {x: 0.16119486, y: 0.000000030814164, z: 0.16119486, w: 0.000000030814164}
+        - {x: 0.70383596, y: 0.28996828, z: 0.70383596, w: 0.28996828}
+        - {x: 1, y: 0.99606293, z: 1, w: 0.99606293}
+        - {x: 0.8440322, y: 1, z: 0.8440322, w: 1}
+        - {x: 0.2649803, y: 0.8246938, z: 0.2649803, w: 0.8246938}
+        - {x: 0.000000012679203, y: 0.0473712, z: 0.000000012679203, w: 0.0473712}
+        - {x: 0.106334, y: 0.14545648, z: 0.106334, w: 0.14545648}
+        triangles: 060000000100000000000000050000000600000000000000030000000200000001000000040000000300000001000000040000000600000005000000010000000600000004000000
+        aabb:
+          m_Center: {x: -0.08971994, y: 0.8414483, z: 0.24143171}
+          m_Extent: {x: 0.08716593, y: 0.4835815, z: 0.29381108}
+        obb:
+          m_Center: {x: -0.08971994, y: -0.0035895482, z: 0.8848594}
+          m_Extent: {x: 0.08716593, y: 0.18880373, z: 0.5276198}
+        obbAngle: 75.70305
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 410012
+        snapshotId: 4
+        lod: 1
+        fragment: 1
+        fragmentOffset: {x: -0.0025540176, y: 0.3715298, z: 0.014094809}
+        resolution: 2
+        points:
+        - {x: -0.0025540176, y: 0.35786682, z: 0.0423423}
+        - {x: -0.044071242, y: 0.6383134, z: 0.36121026}
+        - {x: -0.17688587, y: 1.3212221, z: 0.5352428}
+        - {x: -0.14951876, y: 1.3250299, z: 0.44359267}
+        - {x: -0.111899644, y: 1.1554801, z: 0.10332891}
+        - {x: -0.027580509, y: 0.40368247, z: -0.052379362}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        - {x: 0.011599261, y: 0.24781804, z: 0.00064291805}
+        lastConvexPointIndex: 5
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99805075, y: 0, z: -0.062408507}
+        - {x: 0.995324, y: 0.08882967, z: 0.037939087}
+        - {x: 0.9483064, y: 0.30355233, z: 0.09257959}
+        - {x: 0.9509358, y: 0.30284324, z: 0.06330171}
+        - {x: 0.9670442, y: 0.25087598, z: -0.043437935}
+        - {x: 0.99559844, y: 0.01444003, z: -0.09260248}
+        - {x: 0.9964044, y: 0.044023275, z: -0.07238951}
+        - {x: 0.9965909, y: -0.03429404, z: -0.07503604}
+        tangents:
+        - {x: 0.05794558, y: 0.3713618, z: 0.92667836, w: -1}
+        - {x: -0.038444377, y: 0.003983731, z: 0.9992528, w: -1}
+        - {x: -0.11528667, y: 0.057717104, z: 0.99165404, w: -1}
+        - {x: -0.07145463, y: 0.01590555, z: 0.997317, w: -1}
+        - {x: 0.039658003, y: 0.02010531, z: 0.99901104, w: -1}
+        - {x: 0.09196781, y: 0.039724182, z: 0.9949693, w: -1}
+        - {x: 0.07248246, y: -0.0005167279, z: 0.9973695, w: -1}
+        - {x: 0.058146372, y: 0.9371881, z: 0.34394398, w: 1}
+        uvs:
+        - {x: 0.16119486, y: 0.000000030814164, z: 0.16119486, w: 0.000000030814164}
+        - {x: 0.70383596, y: 0.28996828, z: 0.70383596, w: 0.28996828}
+        - {x: 1, y: 0.99606293, z: 1, w: 0.99606293}
+        - {x: 0.8440322, y: 1, z: 0.8440322, w: 1}
+        - {x: 0.2649803, y: 0.8246938, z: 0.2649803, w: 0.8246938}
+        - {x: 0.000000012679203, y: 0.0473712, z: 0.000000012679203, w: 0.0473712}
+        - {x: 0.106334, y: 0.14545648, z: 0.106334, w: 0.14545648}
+        - {x: 0.09023194, y: 0, z: 0.09023194, w: 0}
+        triangles: 060000000100000000000000050000000600000000000000030000000200000001000000040000000300000001000000000000000700000005000000040000000600000005000000010000000600000004000000070000000000000001000000
+        aabb:
+          m_Center: {x: -0.08971994, y: 0.8414483, z: 0.24143171}
+          m_Extent: {x: 0.08716593, y: 0.4835815, z: 0.29381108}
+        obb:
+          m_Center: {x: -0.08971994, y: -0.0035895482, z: 0.8848594}
+          m_Extent: {x: 0.08716593, y: 0.18880373, z: 0.5276198}
+        obbAngle: 75.70305
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 410013
+        snapshotId: 4
+        lod: 1
+        fragment: 1
+        fragmentOffset: {x: -0.0025540176, y: 0.3715298, z: 0.014094809}
+        resolution: 3
+        points:
+        - {x: -0.0025540176, y: 0.35786682, z: 0.0423423}
+        - {x: -0.044071242, y: 0.6383134, z: 0.36121026}
+        - {x: -0.17688587, y: 1.3212221, z: 0.5352428}
+        - {x: -0.14951876, y: 1.3250299, z: 0.44359267}
+        - {x: -0.111899644, y: 1.1554801, z: 0.10332891}
+        - {x: -0.027580509, y: 0.40368247, z: -0.052379362}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        - {x: -0.001631959, y: 0.3716734, z: 0.012089389}
+        - {x: 0.011599261, y: 0.24781804, z: 0.00064291805}
+        lastConvexPointIndex: 5
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99805075, y: 0, z: -0.062408507}
+        - {x: 0.995324, y: 0.08882967, z: 0.037939087}
+        - {x: 0.9483064, y: 0.30355233, z: 0.09257959}
+        - {x: 0.9509358, y: 0.30284324, z: 0.06330171}
+        - {x: 0.9670442, y: 0.25087598, z: -0.043437935}
+        - {x: 0.99559844, y: 0.01444003, z: -0.09260248}
+        - {x: 0.9964044, y: 0.044023275, z: -0.07238951}
+        - {x: 0.9974079, y: 0.0043239295, z: -0.07182478}
+        - {x: 0.9965909, y: -0.03429404, z: -0.07503604}
+        tangents:
+        - {x: 0.057652514, y: 0.38289413, z: 0.92199147, w: -1}
+        - {x: -0.038444377, y: 0.003983731, z: 0.9992528, w: -1}
+        - {x: -0.11528667, y: 0.057717104, z: 0.99165404, w: -1}
+        - {x: -0.07145463, y: 0.01590555, z: 0.997317, w: -1}
+        - {x: 0.039658003, y: 0.02010531, z: 0.99901104, w: -1}
+        - {x: 0.09214829, y: 0.02946166, z: 0.99530935, w: -1}
+        - {x: 0.07247956, y: -0.00045069883, z: 0.99736977, w: -1}
+        - {x: 0.070074774, y: 0.16831675, z: 0.98323905, w: -1}
+        - {x: 0.058061633, y: 0.93768936, z: 0.3425894, w: 1}
+        uvs:
+        - {x: 0.16119486, y: 0.000000030814164, z: 0.16119486, w: 0.000000030814164}
+        - {x: 0.70383596, y: 0.28996828, z: 0.70383596, w: 0.28996828}
+        - {x: 1, y: 0.99606293, z: 1, w: 0.99606293}
+        - {x: 0.8440322, y: 1, z: 0.8440322, w: 1}
+        - {x: 0.2649803, y: 0.8246938, z: 0.2649803, w: 0.8246938}
+        - {x: 0.000000012679203, y: 0.0473712, z: 0.000000012679203, w: 0.0473712}
+        - {x: 0.106334, y: 0.14545648, z: 0.106334, w: 0.14545648}
+        - {x: 0.109711245, y: 0.014275371, z: 0.109711245, w: 0.014275371}
+        - {x: 0.09023194, y: 0, z: 0.09023194, w: 0}
+        triangles: 060000000100000000000000000000000700000006000000030000000200000001000000040000000300000001000000000000000800000007000000040000000600000005000000010000000600000004000000070000000800000005000000070000000500000006000000080000000000000001000000
+        aabb:
+          m_Center: {x: -0.08971994, y: 0.8414483, z: 0.24143171}
+          m_Extent: {x: 0.08716593, y: 0.4835815, z: 0.29381108}
+        obb:
+          m_Center: {x: -0.08971994, y: -0.0035895482, z: 0.8848594}
+          m_Extent: {x: 0.08716593, y: 0.18880373, z: 0.5276198}
+        obbAngle: 75.70305
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 410014
+        snapshotId: 4
+        lod: 1
+        fragment: 1
+        fragmentOffset: {x: -0.0025540176, y: 0.3715298, z: 0.014094809}
+        resolution: 4
+        points:
+        - {x: -0.0025540176, y: 0.35786682, z: 0.0423423}
+        - {x: -0.044071242, y: 0.6383134, z: 0.36121026}
+        - {x: -0.17688587, y: 1.3212221, z: 0.5352428}
+        - {x: -0.14951876, y: 1.3250299, z: 0.44359267}
+        - {x: -0.111899644, y: 1.1554801, z: 0.10332891}
+        - {x: -0.027580509, y: 0.40368247, z: -0.052379362}
+        lastConvexPointIndex: 5
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99805075, y: 0, z: -0.062408507}
+        - {x: 0.995324, y: 0.08882967, z: 0.037939087}
+        - {x: 0.9483064, y: 0.30355233, z: 0.09257959}
+        - {x: 0.9509358, y: 0.30284324, z: 0.06330171}
+        - {x: 0.9670442, y: 0.25087598, z: -0.043437935}
+        - {x: 0.99559844, y: 0.01444003, z: -0.09260248}
+        tangents:
+        - {x: 0.062408496, y: 0.00000001071204, z: 0.9980507, w: -1}
+        - {x: -0.037707463, y: -0.004284753, z: 0.9992796, w: -1}
+        - {x: -0.11528667, y: 0.057717104, z: 0.99165404, w: -1}
+        - {x: -0.07145463, y: 0.01590555, z: 0.997317, w: -1}
+        - {x: 0.041128263, y: 0.014444599, z: 0.9990495, w: -1}
+        - {x: 0.092601426, y: 0.00074304163, z: 0.995703, w: -1}
+        uvs:
+        - {x: 0.16119486, y: 0.000000030814164, z: 0.16119486, w: 0.000000030814164}
+        - {x: 0.70383596, y: 0.28996828, z: 0.70383596, w: 0.28996828}
+        - {x: 1, y: 0.99606293, z: 1, w: 0.99606293}
+        - {x: 0.8440322, y: 1, z: 0.8440322, w: 1}
+        - {x: 0.2649803, y: 0.8246938, z: 0.2649803, w: 0.8246938}
+        - {x: 0.000000012679203, y: 0.0473712, z: 0.000000012679203, w: 0.0473712}
+        triangles: 000000000500000001000000030000000200000001000000040000000300000001000000050000000400000001000000
+        aabb:
+          m_Center: {x: -0.08971994, y: 0.8414483, z: 0.24143171}
+          m_Extent: {x: 0.08716593, y: 0.4835815, z: 0.29381108}
+        obb:
+          m_Center: {x: -0.08971994, y: -0.0035895482, z: 0.8848594}
+          m_Extent: {x: 0.08716593, y: 0.18880373, z: 0.5276198}
+        obbAngle: 75.70305
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 400000
+        snapshotId: 4
+        lod: 0
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 0
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.0499266, y: 0.08287457, z: 0.3290993}
+        - {x: 0.12026456, y: 0.5142108, z: 0.7555719}
+        - {x: 0.104537345, y: 0.6910943, z: 0.6746413}
+        - {x: 0.09530014, y: 1.5073981, z: -0.40579098}
+        - {x: 0.07241846, y: 1.4568244, z: -0.56451386}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.03260789, y: 0.50066495, z: -0.5904121}
+        - {x: -0.0053462638, y: 0.0008910155, z: -0.039333034}
+        lastConvexPointIndex: 8
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99999005, y: 0.000000010442606, z: 0.0044576298}
+        - {x: 0.9945832, y: 0.026416942, z: 0.100530684}
+        - {x: 0.9625664, y: 0.15420441, z: 0.22290559}
+        - {x: 0.9579126, y: 0.20719835, z: 0.1986764}
+        - {x: 0.8977436, y: 0.4245718, z: -0.117453}
+        - {x: 0.8962077, y: 0.4125918, z: -0.16303302}
+        - {x: 0.9301045, y: 0.2939388, z: -0.22023994}
+        - {x: 0.9700157, y: 0.15555197, z: -0.18674356}
+        - {x: 0.99986506, y: 0.00048705543, z: -0.016421508}
+        tangents:
+        - {x: -0.0044576256, y: 0.000000010985646, z: 0.99999005, w: -1}
+        - {x: -0.10045384, y: -0.004223563, z: 0.9949328, w: -1}
+        - {x: -0.2153506, y: -0.06429118, z: 0.97441816, w: -1}
+        - {x: -0.19159484, y: -0.05391099, z: 0.97999233, w: -1}
+        - {x: 0.11572567, y: 0.029956795, z: 0.9928294, w: -1}
+        - {x: 0.17296417, y: 0.013449164, z: 0.9848363, w: -1}
+        - {x: 0.21560718, y: 0.048504133, z: 0.9752748, w: -1}
+        - {x: 0.18566786, y: 0.021547241, z: 0.9823763, w: -1}
+        - {x: 0.016421506, y: 0.0000071109503, z: 0.9998652, w: -1}
+        uvs:
+        - {x: 0.5092485, y: 0.000000021383821, z: 0.5092485, w: 0.000000021383821}
+        - {x: 0.7134647, y: 0.05536283, z: 0.7134647, w: 0.05536283}
+        - {x: 1, y: 0.34139267, z: 1, w: 0.34139267}
+        - {x: 0.94562495, y: 0.45868853, z: 0.94562495, w: 0.45868853}
+        - {x: 0.21971193, y: 1, z: 0.21971193, w: 1}
+        - {x: 0.11307036, y: 0.9664633, z: 0.11307036, w: 0.9664633}
+        - {x: 0, y: 0.6586265, z: 0, w: 0.6586265}
+        - {x: 0.09567005, y: 0.33241007, z: 0.09567005, w: 0.33241007}
+        - {x: 0.46592504, y: 0.0009974912, z: 0.46592504, w: 0.0009974912}
+        triangles: 070000000300000001000000000000000700000001000000030000000200000001000000030000000700000004000000060000000500000004000000070000000600000004000000000000000800000007000000
+        aabb:
+          m_Center: {x: 0.05745915, y: 0.75339246, z: 0.011383355}
+          m_Extent: {x: 0.062805414, y: 0.7540057, z: 0.74418855}
+        obb:
+          m_Center: {x: 0.05745915, y: -0.467548, z: 0.51787186}
+          m_Extent: {x: 0.062805414, y: 0.49054796, z: 0.8107462}
+        obbAngle: 142.92769
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 400001
+        snapshotId: 4
+        lod: 0
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 1
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.0499266, y: 0.08287457, z: 0.3290993}
+        - {x: 0.12026456, y: 0.5142108, z: 0.7555719}
+        - {x: 0.104537345, y: 0.6910943, z: 0.6746413}
+        - {x: 0.09530014, y: 1.5073981, z: -0.40579098}
+        - {x: 0.07241846, y: 1.4568244, z: -0.56451386}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.03260789, y: 0.50066495, z: -0.5904121}
+        - {x: -0.0053462638, y: 0.0008910155, z: -0.039333034}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        lastConvexPointIndex: 8
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99999005, y: 0.000000010442606, z: 0.0044576298}
+        - {x: 0.9945832, y: 0.026416942, z: 0.100530684}
+        - {x: 0.9625664, y: 0.15420441, z: 0.22290559}
+        - {x: 0.9579126, y: 0.20719835, z: 0.1986764}
+        - {x: 0.8977436, y: 0.4245718, z: -0.117453}
+        - {x: 0.8962077, y: 0.4125918, z: -0.16303302}
+        - {x: 0.9301045, y: 0.2939388, z: -0.22023994}
+        - {x: 0.9700157, y: 0.15555197, z: -0.18674356}
+        - {x: 0.99986506, y: 0.00048705543, z: -0.016421508}
+        - {x: 0.98721033, y: 0.15942281, z: -0.00040833242}
+        tangents:
+        - {x: -0.004457624, y: -0.000000038299884, z: 0.99999005, w: -1}
+        - {x: -0.100373775, y: -0.007203518, z: 0.9949237, w: -1}
+        - {x: -0.2153506, y: -0.06429118, z: 0.97441816, w: -1}
+        - {x: -0.18780266, y: -0.0710957, z: 0.9796303, w: -1}
+        - {x: 0.11570509, y: 0.030000618, z: 0.99283046, w: -1}
+        - {x: 0.17296417, y: 0.013449164, z: 0.9848363, w: -1}
+        - {x: 0.20859419, y: 0.07081534, z: 0.97543514, w: -1}
+        - {x: 0.18287946, y: 0.038921498, z: 0.9823646, w: -1}
+        - {x: 0.016421497, y: 0.000032038766, z: 0.9998652, w: -1}
+        - {x: 0.0022125507, y: -0.0111398725, z: 0.9999355, w: -1}
+        uvs:
+        - {x: 0.5092485, y: 0.000000021383821, z: 0.5092485, w: 0.000000021383821}
+        - {x: 0.7134647, y: 0.05536283, z: 0.7134647, w: 0.05536283}
+        - {x: 1, y: 0.34139267, z: 1, w: 0.34139267}
+        - {x: 0.94562495, y: 0.45868853, z: 0.94562495, w: 0.45868853}
+        - {x: 0.21971193, y: 1, z: 0.21971193, w: 1}
+        - {x: 0.11307036, y: 0.9664633, z: 0.11307036, w: 0.9664633}
+        - {x: 0, y: 0.6586265, z: 0, w: 0.6586265}
+        - {x: 0.09567005, y: 0.33241007, z: 0.09567005, w: 0.33241007}
+        - {x: 0.46592504, y: 0.0009974912, z: 0.46592504, w: 0.0009974912}
+        - {x: 0.499141, y: 0.33100557, z: 0.499141, w: 0.33100557}
+        triangles: 090000000000000008000000030000000200000001000000090000000100000000000000030000000900000004000000060000000500000004000000040000000900000006000000070000000900000008000000090000000700000006000000010000000900000003000000
+        aabb:
+          m_Center: {x: 0.05745915, y: 0.75339246, z: 0.011383355}
+          m_Extent: {x: 0.062805414, y: 0.7540057, z: 0.74418855}
+        obb:
+          m_Center: {x: 0.05745915, y: -0.467548, z: 0.51787186}
+          m_Extent: {x: 0.062805414, y: 0.49054796, z: 0.8107462}
+        obbAngle: 142.92769
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 400002
+        snapshotId: 4
+        lod: 0
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 2
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.0499266, y: 0.08287457, z: 0.3290993}
+        - {x: 0.12026456, y: 0.5142108, z: 0.7555719}
+        - {x: 0.104537345, y: 0.6910943, z: 0.6746413}
+        - {x: 0.09530014, y: 1.5073981, z: -0.40579098}
+        - {x: 0.07241846, y: 1.4568244, z: -0.56451386}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.03260789, y: 0.50066495, z: -0.5904121}
+        - {x: -0.0053462638, y: 0.0008910155, z: -0.039333034}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        - {x: 0.011599261, y: 0.24781804, z: 0.000642918}
+        lastConvexPointIndex: 8
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99999005, y: 0.000000010442606, z: 0.0044576298}
+        - {x: 0.9945832, y: 0.026416942, z: 0.100530684}
+        - {x: 0.9625664, y: 0.15420441, z: 0.22290559}
+        - {x: 0.9579126, y: 0.20719835, z: 0.1986764}
+        - {x: 0.8977436, y: 0.4245718, z: -0.117453}
+        - {x: 0.8962077, y: 0.4125918, z: -0.16303302}
+        - {x: 0.9301045, y: 0.2939388, z: -0.22023994}
+        - {x: 0.9700157, y: 0.15555197, z: -0.18674356}
+        - {x: 0.99986506, y: 0.00048705543, z: -0.016421508}
+        - {x: 0.98721033, y: 0.15942281, z: -0.00040833242}
+        - {x: 0.9968084, y: 0.079756215, z: -0.003448103}
+        tangents:
+        - {x: -0.0044576246, y: 0.0000000106424, z: 0.99999005, w: -1}
+        - {x: -0.10038172, y: -0.006909133, z: 0.994925, w: -1}
+        - {x: -0.2153506, y: -0.06429118, z: 0.97441816, w: -1}
+        - {x: -0.18780266, y: -0.0710957, z: 0.9796303, w: -1}
+        - {x: 0.11570509, y: 0.030000618, z: 0.99283046, w: -1}
+        - {x: 0.17296417, y: 0.013449164, z: 0.9848363, w: -1}
+        - {x: 0.20859419, y: 0.07081534, z: 0.97543514, w: -1}
+        - {x: 0.18298754, y: 0.038254824, z: 0.9823707, w: -1}
+        - {x: 0.016421506, y: 0.0000103977345, z: 0.9998652, w: -1}
+        - {x: 0.002402501, y: -0.01231616, z: 0.99992126, w: -1}
+        - {x: 0.003568519, y: -0.0013673033, z: 0.99999267, w: -1}
+        uvs:
+        - {x: 0.5092485, y: 0.000000021383821, z: 0.5092485, w: 0.000000021383821}
+        - {x: 0.7134647, y: 0.05536283, z: 0.7134647, w: 0.05536283}
+        - {x: 1, y: 0.34139267, z: 1, w: 0.34139267}
+        - {x: 0.94562495, y: 0.45868853, z: 0.94562495, w: 0.45868853}
+        - {x: 0.21971193, y: 1, z: 0.21971193, w: 1}
+        - {x: 0.11307036, y: 0.9664633, z: 0.11307036, w: 0.9664633}
+        - {x: 0, y: 0.6586265, z: 0, w: 0.6586265}
+        - {x: 0.09567005, y: 0.33241007, z: 0.09567005, w: 0.33241007}
+        - {x: 0.46592504, y: 0.0009974912, z: 0.46592504, w: 0.0009974912}
+        - {x: 0.499141, y: 0.33100557, z: 0.499141, w: 0.33100557}
+        - {x: 0.49278378, y: 0.16474096, z: 0.49278378, w: 0.16474096}
+        triangles: 0a0000000800000007000000030000000200000001000000000000000a00000001000000030000000900000004000000060000000500000004000000040000000900000006000000090000000a000000070000000900000007000000060000000100000009000000030000000a0000000900000001000000080000000a00000000000000
+        aabb:
+          m_Center: {x: 0.05745915, y: 0.75339246, z: 0.011383355}
+          m_Extent: {x: 0.062805414, y: 0.7540057, z: 0.74418855}
+        obb:
+          m_Center: {x: 0.05745915, y: -0.467548, z: 0.51787186}
+          m_Extent: {x: 0.062805414, y: 0.49054796, z: 0.8107462}
+        obbAngle: 142.92769
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 400003
+        snapshotId: 4
+        lod: 0
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 3
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.0499266, y: 0.08287457, z: 0.3290993}
+        - {x: 0.12026456, y: 0.5142108, z: 0.7555719}
+        - {x: 0.104537345, y: 0.6910943, z: 0.6746413}
+        - {x: 0.09530014, y: 1.5073981, z: -0.40579098}
+        - {x: 0.07241846, y: 1.4568244, z: -0.56451386}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.03260789, y: 0.50066495, z: -0.5904121}
+        - {x: -0.0053462638, y: 0.0008910155, z: -0.039333034}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        - {x: -0.001631959, y: 0.3716734, z: 0.012089389}
+        - {x: 0.011599261, y: 0.24781804, z: 0.000642918}
+        lastConvexPointIndex: 8
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99999005, y: 0.000000010442606, z: 0.0044576298}
+        - {x: 0.9945832, y: 0.026416942, z: 0.100530684}
+        - {x: 0.9625664, y: 0.15420441, z: 0.22290559}
+        - {x: 0.9579126, y: 0.20719835, z: 0.1986764}
+        - {x: 0.8977436, y: 0.4245718, z: -0.117453}
+        - {x: 0.8962077, y: 0.4125918, z: -0.16303302}
+        - {x: 0.9301045, y: 0.2939388, z: -0.22023994}
+        - {x: 0.9700157, y: 0.15555197, z: -0.18674356}
+        - {x: 0.99986506, y: 0.00048705543, z: -0.016421508}
+        - {x: 0.98721033, y: 0.15942281, z: -0.00040833242}
+        - {x: 0.992828, y: 0.119550854, z: 0.000226726}
+        - {x: 0.9968084, y: 0.079756215, z: -0.003448103}
+        tangents:
+        - {x: -0.0044576246, y: 0.0000000106424, z: 0.99999005, w: -1}
+        - {x: -0.10037947, y: -0.0069927415, z: 0.99492466, w: -1}
+        - {x: -0.2153506, y: -0.06429118, z: 0.97441816, w: -1}
+        - {x: -0.18780266, y: -0.0710957, z: 0.9796303, w: -1}
+        - {x: 0.11570509, y: 0.030000618, z: 0.99283046, w: -1}
+        - {x: 0.17296417, y: 0.013449164, z: 0.9848363, w: -1}
+        - {x: 0.20859419, y: 0.07081534, z: 0.97543514, w: -1}
+        - {x: 0.18298088, y: 0.038295966, z: 0.9823703, w: -1}
+        - {x: 0.016421506, y: 0.0000103977345, z: 0.9998652, w: -1}
+        - {x: 0.0025878458, y: -0.01346393, z: 0.999906, w: -1}
+        - {x: -0.00018815276, y: -0.00033393674, z: 0.99999994, w: -1}
+        - {x: 0.0035337897, y: -0.000933227, z: 0.9999933, w: -1}
+        uvs:
+        - {x: 0.5092485, y: 0.000000021383821, z: 0.5092485, w: 0.000000021383821}
+        - {x: 0.7134647, y: 0.05536283, z: 0.7134647, w: 0.05536283}
+        - {x: 1, y: 0.34139267, z: 1, w: 0.34139267}
+        - {x: 0.94562495, y: 0.45868853, z: 0.94562495, w: 0.45868853}
+        - {x: 0.21971193, y: 1, z: 0.21971193, w: 1}
+        - {x: 0.11307036, y: 0.9664633, z: 0.11307036, w: 0.9664633}
+        - {x: 0, y: 0.6586265, z: 0, w: 0.6586265}
+        - {x: 0.09567005, y: 0.33241007, z: 0.09567005, w: 0.33241007}
+        - {x: 0.46592504, y: 0.0009974912, z: 0.46592504, w: 0.0009974912}
+        - {x: 0.499141, y: 0.33100557, z: 0.499141, w: 0.33100557}
+        - {x: 0.5004744, y: 0.24687256, z: 0.5004744, w: 0.24687256}
+        - {x: 0.49278378, y: 0.16474096, z: 0.49278378, w: 0.16474096}
+        triangles: 0a0000000b00000007000000080000000b00000000000000030000000200000001000000000000000b00000001000000030000000900000004000000060000000500000004000000040000000900000006000000090000000a000000070000000900000007000000060000000100000009000000030000000a00000009000000010000000b00000008000000070000000b0000000a00000001000000
+        aabb:
+          m_Center: {x: 0.05745915, y: 0.75339246, z: 0.011383355}
+          m_Extent: {x: 0.062805414, y: 0.7540057, z: 0.74418855}
+        obb:
+          m_Center: {x: 0.05745915, y: -0.467548, z: 0.51787186}
+          m_Extent: {x: 0.062805414, y: 0.49054796, z: 0.8107462}
+        obbAngle: 142.92769
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 400004
+        snapshotId: 4
+        lod: 0
+        fragment: 0
+        fragmentOffset: {x: -0, y: 0, z: 0}
+        resolution: 4
+        points:
+        - {x: -0.0053462638, y: -0.00061318034, z: 0.025148634}
+        - {x: 0.0499266, y: 0.08287457, z: 0.3290993}
+        - {x: 0.12026456, y: 0.5142108, z: 0.7555719}
+        - {x: 0.104537345, y: 0.6910943, z: 0.6746413}
+        - {x: 0.09530014, y: 1.5073981, z: -0.40579098}
+        - {x: 0.07241846, y: 1.4568244, z: -0.56451386}
+        - {x: 0.049471587, y: 0.992603, z: -0.7328052}
+        - {x: 0.03260789, y: 0.50066495, z: -0.5904121}
+        - {x: -0.0053462638, y: 0.0008910155, z: -0.039333034}
+        - {x: 0.047001004, y: 0.9408245, z: -0.6437945}
+        - {x: 0.055166073, y: 0.9602043, z: -0.4833513}
+        - {x: 0.03426329, y: 0.7654075, z: -0.52678204}
+        - {x: 0.023772495, y: 0.80348915, z: -0.28712332}
+        - {x: 0.020378917, y: 0.58524424, z: -0.42037976}
+        - {x: 0.0057865977, y: 0.672982, z: -0.14109913}
+        - {x: 0.0071762665, y: 0.3647991, z: -0.31560653}
+        - {x: 0.07241846, y: 1.4023833, z: -0.51393306}
+        - {x: 0.07228506, y: 1.3401923, z: -0.29915637}
+        - {x: 0.03381603, y: 1.118022, z: -0.43165088}
+        - {x: 0.04118026, y: 1.0704764, z: -0.15313038}
+        - {x: 0.0054821037, y: 0.8243716, z: -0.29091993}
+        - {x: 0.11282261, y: 0.6152988, z: 0.6331707}
+        - {x: 0.09360056, y: 0.49931434, z: 0.64945936}
+        - {x: 0.07095096, y: 0.5524052, z: 0.4224306}
+        - {x: 0.05071293, y: 0.35866258, z: 0.4873725}
+        - {x: 0.04127717, y: 0.45815536, z: 0.24781355}
+        - {x: 0.013854586, y: 0.14792562, z: 0.31489173}
+        lastConvexPointIndex: 8
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99999005, y: 0.000000010442606, z: 0.0044576298}
+        - {x: 0.9945832, y: 0.026416942, z: 0.100530684}
+        - {x: 0.9625664, y: 0.15420441, z: 0.22290559}
+        - {x: 0.9579126, y: 0.20719835, z: 0.1986764}
+        - {x: 0.8977436, y: 0.4245718, z: -0.117453}
+        - {x: 0.8962077, y: 0.4125918, z: -0.16303302}
+        - {x: 0.9301045, y: 0.2939388, z: -0.22023994}
+        - {x: 0.9700157, y: 0.15555197, z: -0.18674356}
+        - {x: 0.99986506, y: 0.00048705543, z: -0.016421508}
+        - {x: 0.9393086, y: 0.28159362, z: -0.19597036}
+        - {x: 0.9458333, y: 0.28863615, z: -0.14862166}
+        - {x: 0.95800436, y: 0.23463677, z: -0.1648433}
+        - {x: 0.9641646, y: 0.24871945, z: -0.09233205}
+        - {x: 0.9737557, y: 0.18321554, z: -0.13502553}
+        - {x: 0.9760573, y: 0.21214594, z: -0.04802371}
+        - {x: 0.98772365, y: 0.116408415, z: -0.10416828}
+        - {x: 0.9038983, y: 0.40058815, z: -0.14999007}
+        - {x: 0.91707665, y: 0.38842905, z: -0.08996282}
+        - {x: 0.93330365, y: 0.33385786, z: -0.13222404}
+        - {x: 0.9451143, y: 0.3229526, z: -0.049603824}
+        - {x: 0.9620756, y: 0.25612867, z: -0.09385451}
+        - {x: 0.9647037, y: 0.18532193, z: 0.18708976}
+        - {x: 0.96914256, y: 0.15202692, z: 0.19403757}
+        - {x: 0.9771019, y: 0.17076653, z: 0.12692727}
+        - {x: 0.9824823, y: 0.1122697, z: 0.14874132}
+        - {x: 0.9867151, y: 0.14441112, z: 0.07442347}
+        - {x: 0.9941387, y: 0.047524575, z: 0.097106636}
+        tangents:
+        - {x: -0.004457629, y: -0.00000024517294, z: 0.99999005, w: -1}
+        - {x: -0.100189716, y: -0.013931822, z: 0.9948708, w: -1}
+        - {x: -0.21323946, y: -0.07682791, z: 0.9739745, w: -1}
+        - {x: -0.1889108, y: -0.06610354, z: 0.97976685, w: -1}
+        - {x: 0.12882327, y: 0.0019404296, z: 0.99166566, w: -1}
+        - {x: 0.15811811, y: 0.04628897, z: 0.9863346, w: -1}
+        - {x: 0.2042069, y: 0.084572524, z: 0.97526765, w: -1}
+        - {x: 0.18219122, y: 0.0431546, z: 0.98231566, w: -1}
+        - {x: 0.016421514, y: -0.00001064496, z: 0.9998652, w: -1}
+        - {x: 0.1868533, y: 0.059151433, z: 0.9806054, w: -1}
+        - {x: 0.13255115, y: 0.074562795, z: 0.9883676, w: -1}
+        - {x: 0.15575407, y: 0.05688882, z: 0.98615634, w: -1}
+        - {x: 0.08407618, y: 0.043637868, z: 0.99550337, w: -1}
+        - {x: 0.13024499, y: 0.037936367, z: 0.9907558, w: -1}
+        - {x: 0.050812133, y: -0.007708408, z: 0.9986785, w: -1}
+        - {x: 0.103345096, y: 0.0131015135, z: 0.9945593, w: -1}
+        - {x: 0.13783206, y: 0.059180286, z: 0.988686, w: -1}
+        - {x: 0.10570625, y: -0.019305462, z: 0.99421, w: -1}
+        - {x: 0.12066868, y: 0.05521551, z: 0.99115604, w: -1}
+        - {x: 0.06075372, y: -0.024529828, z: 0.9978513, w: -1}
+        - {x: 0.09106146, y: 0.022770295, z: 0.9955849, w: -1}
+        - {x: -0.17798898, y: -0.06473575, z: 0.9819008, w: -1}
+        - {x: -0.1870155, y: -0.059340864, z: 0.98056304, w: -1}
+        - {x: -0.121578, y: -0.041469395, z: 0.9917152, w: -1}
+        - {x: -0.14471619, y: -0.043234073, z: 0.9885282, w: -1}
+        - {x: -0.07203764, y: -0.021687727, z: 0.9971661, w: -1}
+        - {x: -0.096726835, y: -0.010232986, z: 0.9952584, w: -1}
+        uvs:
+        - {x: 0.5092485, y: 0.000000021383821, z: 0.5092485, w: 0.000000021383821}
+        - {x: 0.7134647, y: 0.05536283, z: 0.7134647, w: 0.05536283}
+        - {x: 1, y: 0.34139267, z: 1, w: 0.34139267}
+        - {x: 0.94562495, y: 0.45868853, z: 0.94562495, w: 0.45868853}
+        - {x: 0.21971193, y: 1, z: 0.21971193, w: 1}
+        - {x: 0.11307036, y: 0.9664633, z: 0.11307036, w: 0.9664633}
+        - {x: 0, y: 0.6586265, z: 0, w: 0.6586265}
+        - {x: 0.09567005, y: 0.33241007, z: 0.09567005, w: 0.33241007}
+        - {x: 0.46592504, y: 0.0009974912, z: 0.46592504, w: 0.0009974912}
+        - {x: 0.059803873, y: 0.6242909, z: 0.059803873, w: 0.6242909}
+        - {x: 0.16760127, y: 0.6371421, z: 0.16760127, w: 0.6371421}
+        - {x: 0.13842134, y: 0.5079675, z: 0.13842134, w: 0.5079675}
+        - {x: 0.2994415, y: 0.53322035, z: 0.2994415, w: 0.53322035}
+        - {x: 0.20991014, y: 0.38849673, z: 0.20991014, w: 0.38849673}
+        - {x: 0.39755118, y: 0.4466778, z: 0.39755118, w: 0.4466778}
+        - {x: 0.2803044, y: 0.24231404, z: 0.2803044, w: 0.24231404}
+        - {x: 0.14705423, y: 0.93036205, z: 0.14705423, w: 0.93036205}
+        - {x: 0.29135683, y: 0.88912165, z: 0.29135683, w: 0.88912165}
+        - {x: 0.20233737, y: 0.74179494, z: 0.20233737, w: 0.74179494}
+        - {x: 0.38946772, y: 0.7102663, z: 0.38946772, w: 0.7102663}
+        - {x: 0.29689068, y: 0.547068, z: 0.29689068, w: 0.547068}
+        - {x: 0.917762, y: 0.40842664, z: 0.917762, w: 0.40842664}
+        - {x: 0.9287059, y: 0.33151445, z: 0.9287059, w: 0.33151445}
+        - {x: 0.77617145, y: 0.36672032, z: 0.77617145, w: 0.36672032}
+        - {x: 0.81980413, y: 0.23824476, z: 0.81980413, w: 0.23824476}
+        - {x: 0.658851, y: 0.3042209, z: 0.658851, w: 0.3042209}
+        - {x: 0.703919, y: 0.098499805, z: 0.703919, w: 0.098499805}
+        triangles: 0e000000190000000f0000001900000000000000080000000100000018000000020000000c0000000d0000000b0000000a0000000b000000090000000300000011000000040000000f0000001900000008000000070000000f000000080000000600000009000000070000000500000010000000060000000600000012000000090000001100000012000000100000000b00000007000000090000000d000000070000000b0000000a000000140000000b0000000300000017000000130000000c0000000e0000000d0000000400000010000000050000001300000014000000120000001500000017000000030000000d0000000f000000070000000f0000000d0000000e000000040000001100000010000000100000001200000006000000140000000a00000012000000010000001a00000018000000110000001300000012000000120000000a000000090000000c000000140000000e00000003000000130000001100000014000000130000000e000000140000000c0000000b000000020000001500000003000000170000000e00000013000000190000001a0000000000000002000000160000001500000016000000170000001500000016000000180000001700000018000000160000000200000017000000190000000e0000001900000017000000180000001a0000001900000018000000000000001a00000001000000
+        aabb:
+          m_Center: {x: 0.05745915, y: 0.75339246, z: 0.011383355}
+          m_Extent: {x: 0.062805414, y: 0.7540057, z: 0.74418855}
+        obb:
+          m_Center: {x: 0.05745915, y: -0.467548, z: 0.51787186}
+          m_Extent: {x: 0.062805414, y: 0.49054796, z: 0.8107462}
+        obbAngle: 142.92769
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 400010
+        snapshotId: 4
+        lod: 0
+        fragment: 1
+        fragmentOffset: {x: -0.0025540176, y: 0.3715298, z: 0.014094809}
+        resolution: 0
+        points:
+        - {x: -0.0025540176, y: 0.35786682, z: 0.0423423}
+        - {x: -0.044071242, y: 0.6383134, z: 0.36121026}
+        - {x: -0.17688587, y: 1.3212221, z: 0.5352428}
+        - {x: -0.14951876, y: 1.3250299, z: 0.44359267}
+        - {x: -0.14329557, y: 1.2280105, z: 0.24888778}
+        - {x: -0.110087946, y: 0.99069464, z: 0.06919943}
+        - {x: -0.027580509, y: 0.40368247, z: -0.052379362}
+        lastConvexPointIndex: 6
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99805075, y: 0, z: -0.062408507}
+        - {x: 0.995324, y: 0.08882967, z: 0.037939087}
+        - {x: 0.9483064, y: 0.30355233, z: 0.09257959}
+        - {x: 0.9509358, y: 0.30284324, z: 0.06330171}
+        - {x: 0.9614649, y: 0.2749175, z: 0.002355706}
+        - {x: 0.9780214, y: 0.20118628, z: -0.054755457}
+        - {x: 0.99559844, y: 0.01444003, z: -0.09260248}
+        tangents:
+        - {x: 0.062408496, y: 0.00000001071204, z: 0.9980507, w: -1}
+        - {x: -0.03757749, y: -0.005740012, z: 0.99927723, w: -1}
+        - {x: -0.094026655, y: -0.009879071, z: 0.99552065, w: -1}
+        - {x: -0.08525663, y: 0.05982014, z: 0.9945616, w: -1}
+        - {x: -0.005012488, y: 0.008961765, z: 0.99994725, w: -1}
+        - {x: 0.055117674, y: 0.0038052255, z: 0.99847263, w: -1}
+        - {x: 0.09260522, y: 0.00048003215, z: 0.9957028, w: -1}
+        uvs:
+        - {x: 0.16119486, y: 0.000000030814164, z: 0.16119486, w: 0.000000030814164}
+        - {x: 0.70383596, y: 0.28996828, z: 0.70383596, w: 0.28996828}
+        - {x: 1, y: 0.99606293, z: 1, w: 0.99606293}
+        - {x: 0.8440322, y: 1, z: 0.8440322, w: 1}
+        - {x: 0.5126885, y: 0.8996867, z: 0.5126885, w: 0.8996867}
+        - {x: 0.20689961, y: 0.65431345, z: 0.20689961, w: 0.65431345}
+        - {x: 0.000000012679203, y: 0.0473712, z: 0.000000012679203, w: 0.0473712}
+        triangles: 000000000600000001000000010000000400000002000000040000000300000002000000050000000400000001000000060000000500000001000000
+        aabb:
+          m_Center: {x: -0.08971994, y: 0.8414483, z: 0.24143171}
+          m_Extent: {x: 0.08716593, y: 0.4835815, z: 0.29381108}
+        obb:
+          m_Center: {x: -0.08971994, y: -0.007400006, z: 0.8848594}
+          m_Extent: {x: 0.08716593, y: 0.18499328, z: 0.5276198}
+        obbAngle: 75.70305
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 400011
+        snapshotId: 4
+        lod: 0
+        fragment: 1
+        fragmentOffset: {x: -0.0025540176, y: 0.3715298, z: 0.014094809}
+        resolution: 1
+        points:
+        - {x: -0.0025540176, y: 0.35786682, z: 0.0423423}
+        - {x: -0.044071242, y: 0.6383134, z: 0.36121026}
+        - {x: -0.17688587, y: 1.3212221, z: 0.5352428}
+        - {x: -0.14951876, y: 1.3250299, z: 0.44359267}
+        - {x: -0.14329557, y: 1.2280105, z: 0.24888778}
+        - {x: -0.110087946, y: 0.99069464, z: 0.06919943}
+        - {x: -0.027580509, y: 0.40368247, z: -0.052379362}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        lastConvexPointIndex: 6
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99805075, y: 0, z: -0.062408507}
+        - {x: 0.995324, y: 0.08882967, z: 0.037939087}
+        - {x: 0.9483064, y: 0.30355233, z: 0.09257959}
+        - {x: 0.9509358, y: 0.30284324, z: 0.06330171}
+        - {x: 0.9614649, y: 0.2749175, z: 0.002355706}
+        - {x: 0.9780214, y: 0.20118628, z: -0.054755457}
+        - {x: 0.99559844, y: 0.01444003, z: -0.09260248}
+        - {x: 0.9964044, y: 0.044023275, z: -0.07238951}
+        tangents:
+        - {x: 0.062408518, y: 0.000000012502306, z: 0.9980507, w: -1}
+        - {x: -0.038034625, y: -0.0006174794, z: 0.9992762, w: -1}
+        - {x: -0.094026655, y: -0.009879071, z: 0.99552065, w: -1}
+        - {x: -0.08525663, y: 0.05982014, z: 0.9945616, w: -1}
+        - {x: -0.005012488, y: 0.008961765, z: 0.99994725, w: -1}
+        - {x: 0.054144528, y: 0.008542459, z: 0.9984966, w: -1}
+        - {x: 0.092696264, y: -0.0059644724, z: 0.9956766, w: -1}
+        - {x: 0.07249331, y: -0.00076381775, z: 0.99736863, w: -1}
+        uvs:
+        - {x: 0.16119486, y: 0.000000030814164, z: 0.16119486, w: 0.000000030814164}
+        - {x: 0.70383596, y: 0.28996828, z: 0.70383596, w: 0.28996828}
+        - {x: 1, y: 0.99606293, z: 1, w: 0.99606293}
+        - {x: 0.8440322, y: 1, z: 0.8440322, w: 1}
+        - {x: 0.5126885, y: 0.8996867, z: 0.5126885, w: 0.8996867}
+        - {x: 0.20689961, y: 0.65431345, z: 0.20689961, w: 0.65431345}
+        - {x: 0.000000012679203, y: 0.0473712, z: 0.000000012679203, w: 0.0473712}
+        - {x: 0.106334, y: 0.14545648, z: 0.106334, w: 0.14545648}
+        triangles: 060000000700000000000000010000000400000002000000040000000300000002000000050000000400000001000000070000000100000000000000050000000700000006000000010000000700000005000000
+        aabb:
+          m_Center: {x: -0.08971994, y: 0.8414483, z: 0.24143171}
+          m_Extent: {x: 0.08716593, y: 0.4835815, z: 0.29381108}
+        obb:
+          m_Center: {x: -0.08971994, y: -0.007400006, z: 0.8848594}
+          m_Extent: {x: 0.08716593, y: 0.18499328, z: 0.5276198}
+        obbAngle: 75.70305
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 400012
+        snapshotId: 4
+        lod: 0
+        fragment: 1
+        fragmentOffset: {x: -0.0025540176, y: 0.3715298, z: 0.014094809}
+        resolution: 2
+        points:
+        - {x: -0.0025540176, y: 0.35786682, z: 0.0423423}
+        - {x: -0.044071242, y: 0.6383134, z: 0.36121026}
+        - {x: -0.17688587, y: 1.3212221, z: 0.5352428}
+        - {x: -0.14951876, y: 1.3250299, z: 0.44359267}
+        - {x: -0.14329557, y: 1.2280105, z: 0.24888778}
+        - {x: -0.110087946, y: 0.99069464, z: 0.06919943}
+        - {x: -0.027580509, y: 0.40368247, z: -0.052379362}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        - {x: 0.011599261, y: 0.24781804, z: 0.00064291805}
+        lastConvexPointIndex: 6
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99805075, y: 0, z: -0.062408507}
+        - {x: 0.995324, y: 0.08882967, z: 0.037939087}
+        - {x: 0.9483064, y: 0.30355233, z: 0.09257959}
+        - {x: 0.9509358, y: 0.30284324, z: 0.06330171}
+        - {x: 0.9614649, y: 0.2749175, z: 0.002355706}
+        - {x: 0.9780214, y: 0.20118628, z: -0.054755457}
+        - {x: 0.99559844, y: 0.01444003, z: -0.09260248}
+        - {x: 0.9964044, y: 0.044023275, z: -0.07238951}
+        - {x: 0.9965909, y: -0.03429404, z: -0.07503604}
+        tangents:
+        - {x: 0.05794558, y: 0.3713618, z: 0.92667836, w: -1}
+        - {x: -0.03830413, y: 0.002407855, z: 0.9992632, w: -1}
+        - {x: -0.094026655, y: -0.009879071, z: 0.99552065, w: -1}
+        - {x: -0.08525663, y: 0.05982014, z: 0.9945616, w: -1}
+        - {x: -0.005012488, y: 0.008961765, z: 0.99994725, w: -1}
+        - {x: 0.054144528, y: 0.008542459, z: 0.9984966, w: -1}
+        - {x: 0.09188011, y: 0.044520635, z: 0.99477434, w: -1}
+        - {x: 0.07249331, y: -0.00076381775, z: 0.99736863, w: -1}
+        - {x: 0.058146372, y: 0.9371881, z: 0.34394398, w: 1}
+        uvs:
+        - {x: 0.16119486, y: 0.000000030814164, z: 0.16119486, w: 0.000000030814164}
+        - {x: 0.70383596, y: 0.28996828, z: 0.70383596, w: 0.28996828}
+        - {x: 1, y: 0.99606293, z: 1, w: 0.99606293}
+        - {x: 0.8440322, y: 1, z: 0.8440322, w: 1}
+        - {x: 0.5126885, y: 0.8996867, z: 0.5126885, w: 0.8996867}
+        - {x: 0.20689961, y: 0.65431345, z: 0.20689961, w: 0.65431345}
+        - {x: 0.000000012679203, y: 0.0473712, z: 0.000000012679203, w: 0.0473712}
+        - {x: 0.106334, y: 0.14545648, z: 0.106334, w: 0.14545648}
+        - {x: 0.09023194, y: 0, z: 0.09023194, w: 0}
+        triangles: 000000000800000006000000060000000700000000000000010000000400000002000000040000000300000002000000050000000400000001000000070000000100000000000000050000000700000006000000010000000700000005000000080000000000000001000000
+        aabb:
+          m_Center: {x: -0.08971994, y: 0.8414483, z: 0.24143171}
+          m_Extent: {x: 0.08716593, y: 0.4835815, z: 0.29381108}
+        obb:
+          m_Center: {x: -0.08971994, y: -0.007400006, z: 0.8848594}
+          m_Extent: {x: 0.08716593, y: 0.18499328, z: 0.5276198}
+        obbAngle: 75.70305
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 400013
+        snapshotId: 4
+        lod: 0
+        fragment: 1
+        fragmentOffset: {x: -0.0025540176, y: 0.3715298, z: 0.014094809}
+        resolution: 3
+        points:
+        - {x: -0.0025540176, y: 0.35786682, z: 0.0423423}
+        - {x: -0.044071242, y: 0.6383134, z: 0.36121026}
+        - {x: -0.17688587, y: 1.3212221, z: 0.5352428}
+        - {x: -0.14951876, y: 1.3250299, z: 0.44359267}
+        - {x: -0.14329557, y: 1.2280105, z: 0.24888778}
+        - {x: -0.110087946, y: 0.99069464, z: 0.06919943}
+        - {x: -0.027580509, y: 0.40368247, z: -0.052379362}
+        - {x: -0.002341101, y: 0.49854693, z: 0.010104847}
+        - {x: -0.001631959, y: 0.3716734, z: 0.012089389}
+        - {x: 0.011599261, y: 0.24781804, z: 0.00064291805}
+        lastConvexPointIndex: 6
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99805075, y: 0, z: -0.062408507}
+        - {x: 0.995324, y: 0.08882967, z: 0.037939087}
+        - {x: 0.9483064, y: 0.30355233, z: 0.09257959}
+        - {x: 0.9509358, y: 0.30284324, z: 0.06330171}
+        - {x: 0.9614649, y: 0.2749175, z: 0.002355706}
+        - {x: 0.9780214, y: 0.20118628, z: -0.054755457}
+        - {x: 0.99559844, y: 0.01444003, z: -0.09260248}
+        - {x: 0.9964044, y: 0.044023275, z: -0.07238951}
+        - {x: 0.9974079, y: 0.0043239295, z: -0.07182478}
+        - {x: 0.9965909, y: -0.03429404, z: -0.07503604}
+        tangents:
+        - {x: 0.057652514, y: 0.38289413, z: 0.92199147, w: -1}
+        - {x: -0.03830413, y: 0.002407855, z: 0.9992632, w: -1}
+        - {x: -0.094026655, y: -0.009879071, z: 0.99552065, w: -1}
+        - {x: -0.08525663, y: 0.05982014, z: 0.9945616, w: -1}
+        - {x: -0.005012488, y: 0.008961765, z: 0.99994725, w: -1}
+        - {x: 0.054144528, y: 0.008542459, z: 0.9984966, w: -1}
+        - {x: 0.0920664, y: 0.034187395, z: 0.9951658, w: -1}
+        - {x: 0.072489925, y: -0.00068676897, z: 0.99736893, w: -1}
+        - {x: 0.070074774, y: 0.16831675, z: 0.98323905, w: -1}
+        - {x: 0.058061633, y: 0.93768936, z: 0.3425894, w: 1}
+        uvs:
+        - {x: 0.16119486, y: 0.000000030814164, z: 0.16119486, w: 0.000000030814164}
+        - {x: 0.70383596, y: 0.28996828, z: 0.70383596, w: 0.28996828}
+        - {x: 1, y: 0.99606293, z: 1, w: 0.99606293}
+        - {x: 0.8440322, y: 1, z: 0.8440322, w: 1}
+        - {x: 0.5126885, y: 0.8996867, z: 0.5126885, w: 0.8996867}
+        - {x: 0.20689961, y: 0.65431345, z: 0.20689961, w: 0.65431345}
+        - {x: 0.000000012679203, y: 0.0473712, z: 0.000000012679203, w: 0.0473712}
+        - {x: 0.106334, y: 0.14545648, z: 0.106334, w: 0.14545648}
+        - {x: 0.109711245, y: 0.014275371, z: 0.109711245, w: 0.014275371}
+        - {x: 0.09023194, y: 0, z: 0.09023194, w: 0}
+        triangles: 000000000800000007000000010000000400000002000000040000000300000002000000050000000400000001000000070000000100000000000000000000000900000008000000050000000700000006000000010000000700000005000000080000000900000006000000080000000600000007000000090000000000000001000000
+        aabb:
+          m_Center: {x: -0.08971994, y: 0.8414483, z: 0.24143171}
+          m_Extent: {x: 0.08716593, y: 0.4835815, z: 0.29381108}
+        obb:
+          m_Center: {x: -0.08971994, y: -0.007400006, z: 0.8848594}
+          m_Extent: {x: 0.08716593, y: 0.18499328, z: 0.5276198}
+        obbAngle: 75.70305
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      - id: 400014
+        snapshotId: 4
+        lod: 0
+        fragment: 1
+        fragmentOffset: {x: -0.0025540176, y: 0.3715298, z: 0.014094809}
+        resolution: 4
+        points:
+        - {x: -0.0025540176, y: 0.35786682, z: 0.0423423}
+        - {x: -0.044071242, y: 0.6383134, z: 0.36121026}
+        - {x: -0.17688587, y: 1.3212221, z: 0.5352428}
+        - {x: -0.14951876, y: 1.3250299, z: 0.44359267}
+        - {x: -0.14329557, y: 1.2280105, z: 0.24888778}
+        - {x: -0.110087946, y: 0.99069464, z: 0.06919943}
+        - {x: -0.027580509, y: 0.40368247, z: -0.052379362}
+        lastConvexPointIndex: 6
+        isNonConvexHull: 0
+        normals:
+        - {x: 0.99805075, y: 0, z: -0.062408507}
+        - {x: 0.995324, y: 0.08882967, z: 0.037939087}
+        - {x: 0.9483064, y: 0.30355233, z: 0.09257959}
+        - {x: 0.9509358, y: 0.30284324, z: 0.06330171}
+        - {x: 0.9614649, y: 0.2749175, z: 0.002355706}
+        - {x: 0.9780214, y: 0.20118628, z: -0.054755457}
+        - {x: 0.99559844, y: 0.01444003, z: -0.09260248}
+        tangents:
+        - {x: 0.062408496, y: 0.00000001071204, z: 0.9980507, w: -1}
+        - {x: -0.03757749, y: -0.005740012, z: 0.99927723, w: -1}
+        - {x: -0.094026655, y: -0.009879071, z: 0.99552065, w: -1}
+        - {x: -0.08525663, y: 0.05982014, z: 0.9945616, w: -1}
+        - {x: -0.005012488, y: 0.008961765, z: 0.99994725, w: -1}
+        - {x: 0.055117674, y: 0.0038052255, z: 0.99847263, w: -1}
+        - {x: 0.09260522, y: 0.00048003215, z: 0.9957028, w: -1}
+        uvs:
+        - {x: 0.16119486, y: 0.000000030814164, z: 0.16119486, w: 0.000000030814164}
+        - {x: 0.70383596, y: 0.28996828, z: 0.70383596, w: 0.28996828}
+        - {x: 1, y: 0.99606293, z: 1, w: 0.99606293}
+        - {x: 0.8440322, y: 1, z: 0.8440322, w: 1}
+        - {x: 0.5126885, y: 0.8996867, z: 0.5126885, w: 0.8996867}
+        - {x: 0.20689961, y: 0.65431345, z: 0.20689961, w: 0.65431345}
+        - {x: 0.000000012679203, y: 0.0473712, z: 0.000000012679203, w: 0.0473712}
+        triangles: 000000000600000001000000010000000400000002000000040000000300000002000000050000000400000001000000060000000500000001000000
+        aabb:
+          m_Center: {x: -0.08971994, y: 0.8414483, z: 0.24143171}
+          m_Extent: {x: 0.08716593, y: 0.4835815, z: 0.29381108}
+        obb:
+          m_Center: {x: -0.08971994, y: -0.007400006, z: 0.8848594}
+          m_Extent: {x: 0.08716593, y: 0.18499328, z: 0.5276198}
+        obbAngle: 75.70305
+        planeUp: {x: 0, y: 1, z: 0}
+        planeNormal: {x: 1, y: 0, z: 0}
+      lodCount: 3
+      lastSproutPosition: {x: 0, y: 0, z: 0}
+      crownEnabled: 0
+      crownMinRange: 0
+      crownMaxRange: 0
+      crownProbability: 0
+      crownMinFrequency: 0
+      crownMaxFrequency: 0
+      crownDepth: 0
+      crownSize: 0
+      crownScaleAtTop: 0
+      crownScaleAtBase: 0
+      crownScaleVariance: 0
+      sproutCrownLevelDescriptor:
+        isEnabled: 1
+        minFrequency: 5
+        maxFrequency: 9
+        minParallelAlignAtTop: 0
+        maxParallelAlignAtTop: 0
+        minParallelAlignAtBase: 0
+        maxParallelAlignAtBase: 0
+        minGravityAlignAtTop: 0
+        maxGravityAlignAtTop: 0
+        minGravityAlignAtBase: 0
+        maxGravityAlignAtBase: 0
+        minRange: 0
+        maxRange: 1
+        distribution: 0
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        spacingVariance: 0
+      selectedLevelIndex: 0
+    variations: []
+    snapshotIndex: 3
+    lastSnapshotIndex: 3
+    variationIndex: -1
+    lastVariationIndex: -1
+    branchAlbedoTexture: {fileID: 2800000, guid: ac52998d0ceb24a8d8438b2b399e35e9, type: 3}
+    branchNormalTexture: {fileID: 2800000, guid: 21feba73c7aad467ab0fdc04da14aa1a, type: 3}
+    branchTextureYDisplacement: 2
+    sproutStyleA:
+      minColorSaturation: 1.2
+      maxColorSaturation: 1.2
+      sproutSaturationMode: 0
+      invertSproutSaturationMode: 0
+      sproutSaturationVariance: 0
+      minColorShade: 0.75
+      maxColorShade: 1
+      minColorTint: 0.09523809
+      maxColorTint: 0.29523808
+      colorTint: {r: 0.9150943, g: 0.6027868, b: 0.20287468, a: 1}
+      sproutTintMode: 0
+      invertSproutTintMode: 0
+      sproutTintVariance: 0
+      metallic: 0.114
+      glossiness: 0.218
+      subsurface: 1
+      sproutMapAlphas:
+      - 1
+      - 0.8
+      sproutMapAreas:
+      - enabled: 1
+        x: 0.034545455
+        y: 0.5418182
+        width: 0.24727273
+        height: 0.42727274
+        pivotX: 0.5514706
+        pivotY: 0.004255319
+        texture: {fileID: 2800000, guid: 62ff5abbbec2eac23b7a1f004192b128, type: 3}
+        normalMap: {fileID: 2800000, guid: fa30a5e6a2ac405f39bad9abc3544d2f, type: 3}
+        extraMap: {fileID: 0}
+        subsurfaceMap: {fileID: 0}
+      - enabled: 1
+        x: 0.027272727
+        y: 0.04909091
+        width: 0.30363637
+        height: 0.39636365
+        pivotX: 0.5778443
+        pivotY: 0.036697246
+        texture: {fileID: 2800000, guid: 62ff5abbbec2eac23b7a1f004192b128, type: 3}
+        normalMap: {fileID: 2800000, guid: fa30a5e6a2ac405f39bad9abc3544d2f, type: 3}
+        extraMap: {fileID: 0}
+        subsurfaceMap: {fileID: 0}
+    sproutStyleB:
+      minColorSaturation: 1
+      maxColorSaturation: 1
+      sproutSaturationMode: 0
+      invertSproutSaturationMode: 0
+      sproutSaturationVariance: 0
+      minColorShade: 0.75
+      maxColorShade: 1
+      minColorTint: 0
+      maxColorTint: 0.2
+      colorTint: {r: 1, g: 1, b: 1, a: 1}
+      sproutTintMode: 0
+      invertSproutTintMode: 0
+      sproutTintVariance: 0
+      metallic: 0.158
+      glossiness: 0.278
+      subsurface: 1.057
+      sproutMapAlphas: []
+      sproutMapAreas: []
+    sproutStyleCrown:
+      minColorSaturation: 1
+      maxColorSaturation: 1
+      sproutSaturationMode: 0
+      invertSproutSaturationMode: 0
+      sproutSaturationVariance: 0
+      minColorShade: 0.75
+      maxColorShade: 1
+      minColorTint: 0
+      maxColorTint: 0.2
+      colorTint: {r: 1, g: 1, b: 1, a: 1}
+      sproutTintMode: 0
+      invertSproutTintMode: 0
+      sproutTintVariance: 0
+      metallic: 0
+      glossiness: 0
+      subsurface: 1
+      sproutMapAlphas: []
+      sproutMapAreas: []
+    branchColorShade: 1
+    branchColorSaturation: 1
+    showVariationInScene: 0
+    enableAO: 0
+    samplesAO: 5
+    strengthAO: 0.5
+    enablePreviewAO: 0
+    bgColor: {r: 0.28, g: 0.38, b: 0.47, a: 1}
+    planeSize: 1
+    planeTint: {r: 1, g: 1, b: 1, a: 1}
+    showRuler: 1
+    rulerColor: {r: 1, g: 1, b: 1, a: 1}
+    gizmosColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    gizmosLineWidth: 0.5
+    gizmosUnitSize: 0.3
+    showAxisGizmo: 1
+    axisGizmoSize: 0.15
+    gizmosOutlineWidth: 1
+    gizmosOutlineAlpha: 0.5
+    exportMode: 1
+    exportPath: 
+    exportPrefix: branch
+    exportPrefixVariation: variation
+    exportTake: 0
+    exportTextureSize: 3
+    exportAtlasPadding: 10
+    exportAlbedoEnabled: 1
+    exportTexturesFlags: 15
+    atlasAlbedoTexture: {fileID: 0}
+    atlasNormalsTexture: {fileID: 0}
+    atlasExtrasTexture: {fileID: 0}
+    atlasSubsurfaceTexture: {fileID: 0}

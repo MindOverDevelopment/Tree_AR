@@ -1,0 +1,100 @@
+GridBackground {
+    --grid-background-color: rgb(40, 40, 40);
+    --line-color: rgba(193, 196, 192, 0.05);
+    --spacing: 10;
+    --thick-line-color: rgba(193, 196, 192, 0.05);
+}
+
+Label {
+    color: rgb(196, 196, 196);
+}
+
+gui-container {
+    position: absolute;
+}
+
+.gui-button {
+    width: 19px;
+}
+
+.graph-title {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(63, 63, 63);
+    -unity-text-align: middle-center;
+    align-self: center;
+    font-size: 13px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.area-graph-elem {
+    border-radius: 0px;
+    border-color: #BE8C00;
+    border-width: 1px;
+}
+
+.area-pivot-graph-elem {
+    background-color: #1025EA;
+}
+
+
+.area-handle {
+    cursor: move-arrow;
+    border-radius: 0px;
+    /*background-color: rgba(0, 255, 0, 0.5);*/
+    alpha: 0.5;
+}
+
+.pivot-handle {
+    cursor: move-arrow;
+    border-radius: 0px;
+    /*background-color: rgba(255, 0, 0, 0.5);*/
+    alpha: 0.5;
+}
+
+.corner-handle {
+    cursor: move-arrow;
+    border-radius: 0px;
+    /*background-color: rgba(255, 0, 0, 0.5);*/
+    alpha: 0.5;
+}
+
+.border-handle {
+    cursor: move-arrow;
+    border-radius: 0px;
+    /*background-color: rgba(0, 0, 255, 0.5);*/
+    alpha: 0.5;
+}
+
+.resize-up-left {
+    cursor: resize-up-left;
+}
+
+.resize-up-right {
+    cursor: resize-up-right;
+}
+
+.resize-vertical {
+    cursor: resize-vertical;
+}
+
+.resize-horizontal {
+    cursor: resize-horizontal;
+}
+
+TextureBackground {
+    --grid-background-color: rgb(40, 40, 40);
+    --line-color: rgba(193, 196, 192, 0.05);
+    --spacing: 10;
+    --thick-line-color: rgba(193, 196, 192, 0.05);
+}
+
+.target-texture {
+    border-radius: 0px;
+    border-color: rgba(128, 128, 128, 0.5);
+}

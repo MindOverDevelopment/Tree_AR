@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="popup-modal">
+        <ui:VisualElement style="flex-direction: row; top: 3px; left: 3px;">
+            <ui:Label text="Snapshot Presets" display-tooltip-when-elided="true" name="popup-list-title" style="-unity-text-align: middle-left; -unity-font-style: bold; align-items: stretch; top: 5px; left: 3px;" />
+            <ui:Button text="x" display-tooltip-when-elided="true" name="popup-list-close-btn" style="right: 3px; position: absolute;" />
+        </ui:VisualElement>
+        <ui:ListView focusable="true" name="popup-list" style="top: 15px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="popup-modal-bg" style="position: absolute; left: 0; top: 0; bottom: 0; right: 0;" />
+</ui:UXML>

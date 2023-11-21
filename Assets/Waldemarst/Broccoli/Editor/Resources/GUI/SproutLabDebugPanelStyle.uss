@@ -1,0 +1,19 @@
+.options-list {
+    opacity: 1;
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -unity-text-align: middle-center;
+    border-right-color: rgb(137, 137, 137);
+    border-right-width: 1px;
+}
+
+.options-container {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}

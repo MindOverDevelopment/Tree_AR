@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99c3f1c9331167fe38789a1048895723, type: 3}
+  m_Name: MainSnapshotSettings
+  m_EditorClassIdentifier: 
+  snapshotType: Frond
+  processorId: 0
+  hasFlip: 1
+  enableSelectActiveLevels: 1
+  maxSelectableActiveLevel: 3
+  defaultActiveLevels: 2
+  hasRange: 1
+  curveLevelLimit: -1
+  girthAtBaseMinLimit: 0.003
+  girthAtBaseMaxLimit: 0.025
+  girthAtTopMinLimit: 0.001
+  girthAtTopMaxLimit: 0.005
+  fBendingScale: 2
+  sBendingScale: 1.4
+  hasSBending: 1
+  noiseResolution: 20
+  noiseStrength: 0.05
+  stemFrequencyEnabled: 0
+  stemMinFrequency: 1
+  stemMaxFrequency: 12
+  stemMinLength: 0.05
+  stemMaxLength: 0.5
+  stemRadiusEnabled: 0
+  stemMinRadius: 0
+  stemMaxRadius: 4
+  hasStemOffset: 1
+  stemMinSproutFrequency: 0
+  stemMaxSproutFrequency: 50
+  level1MinFrequency: 0
+  level1MaxFrequency: 24
+  level1MinLengthAtBase: 0.02
+  level1MaxLengthAtBase: 0.45
+  level1MinLengthAtTop: 0.02
+  level1MaxLengthAtTop: 0.45
+  level1PlaneAlignmentEnabled: 1
+  level1MinSproutFrequency: 0
+  level1MaxSproutFrequency: 50
+  level2MinFrequency: 0
+  level2MaxFrequency: 12
+  level2MinLengthAtBase: 0.02
+  level2MaxLengthAtBase: 0.45
+  level2MinLengthAtTop: 0.02
+  level2MaxLengthAtTop: 0.45
+  level2PlaneAlignmentEnabled: 0
+  level2MinSproutFrequency: 0
+  level2MaxSproutFrequency: 50
+  level3MinFrequency: 0
+  level3MaxFrequency: 12
+  level3MinLengthAtBase: 0.02
+  level3MaxLengthAtBase: 0.45
+  level3MinLengthAtTop: 0.02
+  level3MaxLengthAtTop: 0.45
+  level3PlaneAlignmentEnabled: 0
+  level3MinSproutFrequency: 0
+  level3MaxSproutFrequency: 50
+  hasCrown: 0
+  crownName: Flowers
+  crownTooltip: Flower settings.
+  crownMinRange: 0
+  crownMaxRange: 0.4
+  crownMinProbability: 0.2
+  crownMinFrequency: 1
+  crownMaxFrequency: 5

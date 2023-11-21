@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="SproutLabPanelView.uss" />
+    <ui:VisualElement style="flex-direction: row;">
+        <ui:ListView focusable="true" show-border="false" header-title="Settings" reorderable="false" name="settings-list" class="options-list" />
+        <ui:VisualElement name="container-canvas" class="option-container">
+            <ui:Label text="Scene" name="Label" style="-unity-font-style: bold;" />
+            <uie:ColorField label="Background" value="RGBA(0.000, 1.000, 1.000, 1.000)" name="var-preview-bg-color" tooltip="Background color for the preview canvas." />
+            <ui:Slider picking-mode="Ignore" label="Plane Size" value="1" high-value="4" name="var-preview-plane-size" tooltip="Size for the plane at the base of the variation mesh. A size of 1 equals 1 meter." low-value="0.25">
+                <ui:Label text="0/0" name="info" />
+            </ui:Slider>
+            <uie:ColorField label="Plane Tint" value="RGBA(0.000, 1.000, 1.000, 1.000)" name="var-preview-plane-tint" tooltip="Plane tint to apply to the base plane material." show-alpha="true" />
+        </ui:VisualElement>
+        <ui:VisualElement name="container-gizmos" class="option-container">
+            <ui:Label text="Variation View Gizmos" style="-unity-font-style: bold;" />
+            <ui:Toggle label="Show 3D Axis" name="var-gizmos-3d" tooltip="Displays a gizmo for the vector direction of the world space." />
+            <ui:Slider picking-mode="Ignore" label="3D Axis Size" value="0.2" high-value="0.5" name="var-gizmos-3d-size" low-value="0.05" />
+            <ui:Toggle label="Show Ruler" name="var-show-ruler" tooltip="Displays a ruler to compare the height of the mesh with Unity measure units (in meters)." />
+            <uie:ColorField label="Ruler Color" value="RGBA(0.000, 1.000, 1.000, 1.000)" name="var-ruler-color" style="padding-left: 15px;" />
+            <ui:Label text="Selection" display-tooltip-when-elided="true" />
+            <ui:Slider picking-mode="Ignore" label="Outline Width" value="1" high-value="3" name="var-gizmos-outline-width" tooltip="Outline width for the selection on the canvas." low-value="0.5">
+                <ui:Label text="0/0" name="info" />
+            </ui:Slider>
+            <ui:Slider picking-mode="Ignore" label="Outline Alpha" value="0.5" high-value="1" name="var-gizmos-outline-alpha" tooltip="Color alpha value to highlight the canvas selection." low-value="0">
+                <ui:Label text="0/0" name="info" />
+            </ui:Slider>
+            <uie:ColorField label="Outline Color" value="RGBA(0.000, 1.000, 1.000, 1.000)" name="var-gizmos-color" tooltip="Color for the gizmos shown at the preview canvas." />
+            <ui:Slider picking-mode="Ignore" label="Gizmos Line Width" value="1" high-value="2" name="var-gizmos-line-width" tooltip="Line width the gizmos shown at the preview canvas." low-value="0">
+                <ui:Label text="0/0" name="info" />
+            </ui:Slider>
+            <ui:Slider picking-mode="Ignore" label="Unit Size" value="0.01" high-value="0.05" name="var-gizmos-unit-size" tooltip="Size for the gizmos used to display the position of unit elements." low-value="0">
+                <ui:Label text="0/0" name="info" />
+            </ui:Slider>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,134 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Waldemarst/Broccoli/Editor/Resources/GUI/SproutLabPanelView.uss?fileID=7433441132597879392&amp;guid=205cd240954a7d860983c2878bb815a5&amp;type=3#SproutLabPanelView" />
+    <ui:VisualElement style="flex-direction: row;">
+        <ui:ListView focusable="true" show-border="false" header-title="Settings" reorderable="false" name="options-list" class="options-list" />
+        <ui:ScrollView name="container-stem" class="option-container">
+            <ui:Label text="Stem" name="Label" class="option-container-title" />
+            <ui:Slider picking-mode="Ignore" label="Saturation" value="1" high-value="1.5" name="stem-saturation" tooltip="Set the saturation of color to be applied to branches.">
+                <ui:Label text="1" display-tooltip-when-elided="true" name="info" class="info" />
+            </ui:Slider>
+        </ui:ScrollView>
+        <ui:ScrollView name="container-sprout-a" class="option-container">
+            <ui:Label text="Sprout A" name="Label" class="option-container-title" />
+            <ui:Foldout text="Saturation">
+                <ui:MinMaxSlider picking-mode="Ignore" label="Range" min-value="1" max-value="1" low-limit="0" high-limit="1.6" name="sprout-a-saturation" tooltip="Set the color saturation for the sprouts.">
+                    <ui:Label text="0.0/0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:MinMaxSlider>
+                <uie:EnumField label="Mode" name="sprout-a-saturation-mode" include-obsolete-values="false" tooltip="Select the type of distribution for the saturations applied to the structures." />
+                <ui:Toggle label="Invert" name="sprout-a-saturation-mode-invert" tooltip="Inverts the direction of the distribution to apply saturation to structures." class="indent-1" />
+                <ui:Slider picking-mode="Ignore" label="Variance" value="0" high-value="1" name="sprout-a-saturation-variance" tooltip="Applies a randomness factor to the distribution." class="indent-1">
+                    <ui:Label text="0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+            </ui:Foldout>
+            <ui:Foldout text="Shade">
+                <ui:MinMaxSlider picking-mode="Ignore" label="Range" min-value="0.75" max-value="1" low-limit="0.6" high-limit="1" name="sprout-a-shade" tooltip="Range to apply dark shading (darkening) to sprouts.">
+                    <ui:Label text="0.0/0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:MinMaxSlider>
+            </ui:Foldout>
+            <ui:Foldout text="Tint">
+                <ui:MinMaxSlider picking-mode="Ignore" label="Tint Range" min-value="0.25" max-value="0.75" low-limit="0" high-limit="1" name="sprout-a-tint" tooltip="Range of values to randomly apply tint to sprouts.">
+                    <ui:Label text="0.0/0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:MinMaxSlider>
+                <uie:ColorField label="Tint Color" value="RGBA(0.000, 1.000, 1.000, 1.000)" name="sprout-a-tint-color" tooltip="Tint to apply to sprouts." show-alpha="false" show-eye-dropper="true" />
+                <uie:EnumField label="Tint Mode" name="sprout-a-tint-mode" include-obsolete-values="false" tooltip="Select the type of distribution for the tints applied to the structures." />
+                <ui:Toggle label="Invert" name="sprout-a-tint-mode-invert" tooltip="Inverts the direction of the distribution to apply tint to structures." class="indent-1" />
+                <ui:Slider picking-mode="Ignore" label="Variance" value="0" high-value="1" name="sprout-a-tint-variance" tooltip="Applies a randomness factor to the distribution." class="indent-1">
+                    <ui:Label text="0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+            </ui:Foldout>
+            <ui:Foldout text="Surface">
+                <ui:Slider picking-mode="Ignore" label="Metallic" value="0.25" low-value="0" high-value="1" name="sprout-a-metallic" tooltip="PBR material metallic property.">
+                    <ui:Label text="0" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+                <ui:Slider picking-mode="Ignore" label="Glossiness" value="0.25" low-value="0" high-value="1" name="sprout-a-glossiness" tooltip="PBR material glossiness (smooth) property.">
+                    <ui:Label text="0" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+                <ui:Slider picking-mode="Ignore" label="Subsurface" value="0.4" low-value="0" high-value="1.5" name="sprout-a-subsurface" tooltip="PBR material subsurface property.">
+                    <ui:Label text="0" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+            </ui:Foldout>
+        </ui:ScrollView>
+
+        <ui:ScrollView name="container-sprout-b" class="option-container">
+            <ui:Label text="Sprout B" name="Label" class="option-container-title" />
+            <ui:Foldout text="Saturation">
+                <ui:MinMaxSlider picking-mode="Ignore" label="Range" min-value="1" max-value="1" low-limit="0" high-limit="1.6" name="sprout-b-saturation" tooltip="Set the color saturation for the sprouts.">
+                    <ui:Label text="0.0/0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:MinMaxSlider>
+                <uie:EnumField label="Mode" name="sprout-b-saturation-mode" include-obsolete-values="false" tooltip="Select the type of distribution for the saturations applied to the structures." />
+                <ui:Toggle label="Invert" name="sprout-b-saturation-mode-invert" tooltip="Inverts the direction of the distribution to apply saturation to structures." class="indent-1" />
+                <ui:Slider picking-mode="Ignore" label="Variance" value="0" high-value="1" name="sprout-b-saturation-variance" tooltip="Applies a randomness factor to the distribution." class="indent-1">
+                    <ui:Label text="0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+            </ui:Foldout>
+            <ui:Foldout text="Shade">
+                <ui:MinMaxSlider picking-mode="Ignore" label="Range" min-value="0.75" max-value="1" low-limit="0.6" high-limit="1" name="sprout-b-shade" tooltip="Range to apply dark shading (darkening) to sprouts.">
+                    <ui:Label text="0.0/0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:MinMaxSlider>
+            </ui:Foldout>
+            <ui:Foldout text="Tint">
+                <ui:MinMaxSlider picking-mode="Ignore" label="Tint Range" min-value="0.25" max-value="0.75" low-limit="0" high-limit="1" name="sprout-b-tint" tooltip="Range of values to randomly apply tint to sprouts.">
+                    <ui:Label text="0.0/0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:MinMaxSlider>
+                <uie:ColorField label="Tint Color" value="RGBA(0.000, 1.000, 1.000, 1.000)" name="sprout-b-tint-color" tooltip="Tint to apply to sprouts." show-alpha="false" show-eye-dropper="true" />
+                <uie:EnumField label="Tint Mode" name="sprout-b-tint-mode" include-obsolete-values="false" tooltip="Select the type of distribution for the tints applied to the structures." />
+                <ui:Toggle label="Invert" name="sprout-b-tint-mode-invert" tooltip="Inverts the direction of the distribution to apply tint to structures." class="indent-1" />
+                <ui:Slider picking-mode="Ignore" label="Variance" value="0" high-value="1" name="sprout-b-tint-variance" tooltip="Applies a randomness factor to the distribution." class="indent-1">
+                    <ui:Label text="0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+            </ui:Foldout>
+            <ui:Foldout text="Surface">
+                <ui:Slider picking-mode="Ignore" label="Metallic" value="0.25" low-value="0" high-value="1" name="sprout-b-metallic" tooltip="PBR material metallic property.">
+                    <ui:Label text="0" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+                <ui:Slider picking-mode="Ignore" label="Glossiness" value="0.25" low-value="0" high-value="1" name="sprout-b-glossiness" tooltip="PBR material glossiness (smooth) property.">
+                    <ui:Label text="0" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+                <ui:Slider picking-mode="Ignore" label="Subsurface" value="0.4" low-value="0" high-value="1.5" name="sprout-b-subsurface" tooltip="PBR material subsurface property.">
+                    <ui:Label text="0" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+            </ui:Foldout>
+        </ui:ScrollView>
+
+        <ui:ScrollView name="container-sprout-crown" class="option-container">
+            <ui:Label text="Sprout Crown" name="Label" class="option-container-title" />
+            <ui:Foldout text="Saturation">
+                <ui:MinMaxSlider picking-mode="Ignore" label="Range" min-value="1" max-value="1" low-limit="0" high-limit="1.6" name="sprout-crown-saturation" tooltip="Set the color saturation for the sprouts.">
+                    <ui:Label text="0.0/0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:MinMaxSlider>
+                <uie:EnumField label="Mode" name="sprout-crown-saturation-mode" include-obsolete-values="false" tooltip="Select the type of distribution for the saturations applied to the structures." />
+                <ui:Toggle label="Invert" name="sprout-crown-saturation-mode-invert" tooltip="Inverts the direction of the distribution to apply saturation to structures." class="indent-1" />
+                <ui:Slider picking-mode="Ignore" label="Variance" value="0" high-value="1" name="sprout-crown-saturation-variance" tooltip="Applies a randomness factor to the distribution." class="indent-1">
+                    <ui:Label text="0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+            </ui:Foldout>
+            <ui:Foldout text="Shade">
+                <ui:MinMaxSlider picking-mode="Ignore" label="Range" min-value="0.75" max-value="1" low-limit="0.6" high-limit="1" name="sprout-crown-shade" tooltip="Range to apply dark shading (darkening) to sprouts.">
+                    <ui:Label text="0.0/0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:MinMaxSlider>
+            </ui:Foldout>
+            <ui:Foldout text="Tint">
+                <ui:MinMaxSlider picking-mode="Ignore" label="Tint Range" min-value="0.25" max-value="0.75" low-limit="0" high-limit="1" name="sprout-crown-tint" tooltip="Range of values to randomly apply tint to sprouts.">
+                    <ui:Label text="0.0/0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:MinMaxSlider>
+                <uie:ColorField label="Tint Color" value="RGBA(0.000, 1.000, 1.000, 1.000)" name="sprout-crown-tint-color" tooltip="Tint to apply to sprouts." show-alpha="false" show-eye-dropper="true" />
+                <uie:EnumField label="Tint Mode" name="sprout-crown-tint-mode" include-obsolete-values="false" tooltip="Select the type of distribution for the tints applied to the structures." />
+                <ui:Toggle label="Invert" name="sprout-crown-tint-mode-invert" tooltip="Inverts the direction of the distribution to apply tint to structures." class="indent-1" />
+                <ui:Slider picking-mode="Ignore" label="Variance" value="0" high-value="1" name="sprout-crown-tint-variance" tooltip="Applies a randomness factor to the distribution." class="indent-1">
+                    <ui:Label text="0.0" display-tooltip-when-elided="true" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+            </ui:Foldout>
+            <ui:Foldout text="Surface">
+                <ui:Slider picking-mode="Ignore" label="Metallic" value="0.25" low-value="0" high-value="1" name="sprout-crown-metallic" tooltip="PBR material metallic property.">
+                    <ui:Label text="0" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+                <ui:Slider picking-mode="Ignore" label="Glossiness" value="0.25" low-value="0" high-value="1" name="sprout-crown-glossiness" tooltip="PBR material glossiness (smooth) property.">
+                    <ui:Label text="0" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+                <ui:Slider picking-mode="Ignore" label="Subsurface" value="0.4" low-value="0" high-value="1.5" name="sprout-crown-subsurface" tooltip="PBR material subsurface property.">
+                    <ui:Label text="0" name="info" enable-rich-text="false" class="info" />
+                </ui:Slider>
+            </ui:Foldout>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>
