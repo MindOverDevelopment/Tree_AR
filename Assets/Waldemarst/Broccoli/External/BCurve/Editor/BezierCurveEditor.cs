@@ -1190,7 +1190,7 @@ namespace Broccoli.Utils
                         int hotControl = GUIUtility.hotControl;
                         Handles.color = selectedNodeColor;
                         if (rayDragEnabled) {
-                            var fmh_1193_78_638361349572879199 = Quaternion.identity; newPosition = Handles.FreeMoveHandle (s_tmpNode, handleSize * nodeSize, Vector3.zero, selectedNodeDrawFunction);
+                            var fmh_1193_78_638361716003810530 = Quaternion.identity; newPosition = Handles.FreeMoveHandle (s_tmpNode, handleSize * nodeSize, Vector3.zero, selectedNodeDrawFunction);
                         } else {
                             newPosition = Handles.PositionHandle (s_tmpNode, Quaternion.identity);
                             FreeMoveHandle (ctrlId, s_tmpNode, Quaternion.identity, handleSize * nodeSize,
@@ -1347,7 +1347,7 @@ namespace Broccoli.Utils
         void DrawBezierNodeHandle1 (BezierNode node, int index, Vector3 sceneOffset, float scale, bool isLastNode) {
             int hotControl = GUIUtility.hotControl;
             s_tmpHandle1 = node.globalHandle1 * scale + sceneOffset;
-            var fmh_1352_17_638361349572903217 = Quaternion.identity; Vector3 newGlobal1 = Handles.FreeMoveHandle (
+            var fmh_1352_17_638361716003844821 = Quaternion.identity; Vector3 newGlobal1 = Handles.FreeMoveHandle (
                 s_tmpHandle1, 
                 HandleUtility.GetHandleSize (s_tmpHandle1) * nodeHandleSize, 
                 Vector3.zero, 
@@ -1387,7 +1387,7 @@ namespace Broccoli.Utils
         void DrawBezierNodeHandle2 (BezierNode node, int index, Vector3 sceneOffset, float scale, bool isLastNode) {
             int hotControl = GUIUtility.hotControl;
             s_tmpHandle2 = node.globalHandle2 * scale + sceneOffset;
-            var fmh_1393_17_638361349572905014 = Quaternion.identity; Vector3 newGlobal2 = Handles.FreeMoveHandle(
+            var fmh_1393_17_638361716003848511 = Quaternion.identity; Vector3 newGlobal2 = Handles.FreeMoveHandle(
                 s_tmpHandle2, 
                 HandleUtility.GetHandleSize (s_tmpHandle2) * nodeHandleSize, 
                 Vector3.zero, 

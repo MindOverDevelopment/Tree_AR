@@ -921,6 +921,7 @@ namespace Broccoli.Manager
 			return submeshMeshes;
 		}
 		void AddMeshAsAsset (Mesh mesh, Object _prefab) {
+			#if UNITY_EDITOR
 			if (TreeFactory.GetActiveInstance ().treeFactoryPreferences.prefabIncludeAssetsInsidePrefab) {
 				AssetDatabase.AddObjectToAsset (mesh, _prefab);
 			} else {
@@ -928,6 +929,7 @@ namespace Broccoli.Manager
 				string meshPath = folderPath + "/" + mesh.name + ".asset";
 				AssetDatabase.CreateAsset (mesh, meshPath);
 			}
+			#endif
 		}
 		void AddBroccoTreeController (GameObject gameObject) {
 			if (GlobalSettings.broccoTreeControllerVersion == GlobalSettings.BROCCO_TREE_CONTROLLER_V1) {

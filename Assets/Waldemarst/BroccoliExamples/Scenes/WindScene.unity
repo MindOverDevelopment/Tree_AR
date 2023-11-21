@@ -207,7 +207,7 @@ MonoBehaviour:
   autoselectOnSceneLoad: 1
   develShowFields: 0
   scenePipelineType: 0
-  detectedPipelineType: 0
+  detectedPipelineType: 2
 --- !u!4 &208272243
 Transform:
   m_ObjectHideFlags: 0

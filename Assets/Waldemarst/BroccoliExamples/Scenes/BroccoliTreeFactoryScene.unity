@@ -304,7 +304,7 @@ MonoBehaviour:
   autoselectOnSceneLoad: 1
   develShowFields: 0
   scenePipelineType: 0
-  detectedPipelineType: 0
+  detectedPipelineType: 2
 --- !u!4 &208272243
 Transform:
   m_ObjectHideFlags: 0
@@ -7179,7 +7179,7 @@ MonoBehaviour:
   _localPipeline: {fileID: 1926859330}
   lastUndoProcessed: 88
   prefabPath: 
-  _instanceId: 92478
+  _instanceId: 164016
 --- !u!4 &1457250593
 Transform:
   m_ObjectHideFlags: 0
