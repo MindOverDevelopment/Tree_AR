@@ -6,7 +6,6 @@ public class TouchController : MonoBehaviour
 {
     public GameObject projectilePrefab; // Assign your projectile prefab in the Unity Editor
     public float projectileForce = 10f;
-    public bool isActive;
 
     void Update()
     {
@@ -27,8 +26,6 @@ public class TouchController : MonoBehaviour
 
     void FireProjectile(Vector2 touchPosition)
     {
-        if (!isActive)
-        {
             // Convert the touch position to a world point
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(touchPosition.x, touchPosition.y, Camera.main.nearClipPlane));
 
@@ -47,9 +44,8 @@ public class TouchController : MonoBehaviour
                 // Apply force to the projectile in the calculated direction
                 rb.AddForce(direction * projectileForce, ForceMode.Impulse);
 
-                isActive = true;
             }
-        }
+        
 
     }
 }

@@ -31,7 +31,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: PortalBlack
+  m_Name: PortalMist
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -71,7 +71,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PortalBlack
+  m_Name: PortalMist
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
@@ -2100,7 +2100,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.0,"g":0.14575952291488648,"b":1.3195079565048218,"a":1.0},"time":0.0},{"color":{"r":0.0,"g":0.1829783320426941,"b":1.6794390678405762,"a":1.0},"time":0.3323567509651184},{"color":{"r":0.0,"g":4.1178998947143559,"b":4.248016834259033,"a":1.0},"time":0.5264667868614197},{"color":{"r":0.0,"g":0.15437591075897218,"b":1.8739855289459229,"a":1.0},"time":0.7088273167610169},{"color":{"r":0.0,"g":0.2586299777030945,"b":1.3195079565048218,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":0.01568627543747425,"time":0.5088273286819458},{"alpha":0.0,"time":0.9882352948188782}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.3195079565048218,"g":0.3486975133419037,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":4.248016357421875,"g":0.6736091375350952,"b":0.0,"a":1.0},"time":0.5264667868614197},{"color":{"r":1.3195079565048218,"g":0.2500077188014984,"b":0.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":0.01568627543747425,"time":0.5088273286819458},{"alpha":0.0,"time":0.9882352948188782}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Color

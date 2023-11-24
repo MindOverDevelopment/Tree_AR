@@ -413,7 +413,7 @@ MonoBehaviour:
       slotIndex: 0
   m_OutputFlowSlot:
   - link: []
-  blendMode: 1
+  blendMode: 0
   cullMode: 0
   zWriteMode: 0
   zTestMode: 0
@@ -627,7 +627,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"29df7d96784a0b44b9d0c71d28c560e1","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"9dd11bbb8c1266d44b5462c0d9b15083","type":3}}'
     m_Space: 2147483647
   m_Property:
     name: mainTexture
@@ -1858,7 +1858,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"98e8de38b6a984f34bc3bffe8b87ce3a","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"7d45ede4d64cc497196e288cad3d503c","type":3}}'
     m_Space: 2147483647
   m_Property:
     name: attributeMap
