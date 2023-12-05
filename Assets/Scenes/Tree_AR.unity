@@ -682,7 +682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 968053edfd89749c48f4ea5d444abf64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshPrefab: {fileID: 5002281369233153173, guid: 543974948c4e8d144b3bc11753d1ee4f, type: 3}
+  m_MeshPrefab: {fileID: 5002281369233153173, guid: 2784a389fb70b4c1d9731e40d89267c3, type: 3}
   m_Density: 0.5
   m_Normals: 1
   m_Tangents: 0
