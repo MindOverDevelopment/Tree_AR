@@ -124,7 +124,6 @@ GameObject:
   - component: {fileID: 5609200629917995225}
   - component: {fileID: 5227747193453839237}
   - component: {fileID: 2011896297091437753}
-  - component: {fileID: 6758263590831838992}
   m_Layer: 0
   m_Name: Seed
   m_TagString: Untagged
@@ -246,16 +245,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &6758263590831838992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8936281217109175419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bf225153adc52444872511a3f00c053, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tree: {fileID: 5052348842770409216, guid: 28f6f7e41cb63b649b8ce91f043e0e81, type: 3}

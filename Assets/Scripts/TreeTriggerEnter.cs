@@ -16,7 +16,7 @@ public class TreeTriggerEnter : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("MainCamera"))
         {
             volume.enabled = true;
             animator.enabled = true;
