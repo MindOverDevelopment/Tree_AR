@@ -8304,8 +8304,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6320601416886612945}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.009, y: -0.223, z: -0.76200104}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 0.009, y: 0.78, z: -0.76200104}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8318,7 +8318,7 @@ Transform:
   - {fileID: 1104081500504130128}
   - {fileID: 1341804805483038951}
   m_Father: {fileID: 8599419275610204969}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &7666963335981198044
 GameObject:
   m_ObjectHideFlags: 0
@@ -8333,6 +8333,7 @@ GameObject:
   - component: {fileID: 705188884198268116}
   - component: {fileID: 5770774353923767227}
   - component: {fileID: 7924143756172098748}
+  - component: {fileID: 6316317682989176691}
   m_Layer: 0
   m_Name: Trigger
   m_TagString: Untagged
@@ -8349,7 +8350,7 @@ Transform:
   m_GameObject: {fileID: 7666963335981198044}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.69, y: 0.46, z: -5.11}
+  m_LocalPosition: {x: -0.42, y: 1.3, z: 2.64}
   m_LocalScale: {x: 4.468982, y: 4.468982, z: 4.468982}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8458,6 +8459,33 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 47b885cda1bc6024d8e12fbb58a5cbff, type: 2}
+--- !u!54 &6316317682989176691
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666963335981198044}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &7872388502778701644
 GameObject:
   m_ObjectHideFlags: 0

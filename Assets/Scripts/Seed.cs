@@ -97,6 +97,7 @@ public class Seed : MonoBehaviour
             treeSpawned = true;
             hasCollided = true;
             Instantiate(treePrefab, transform.position, Quaternion.identity);
+            Destroy(gameObject);
         }
     }
 
