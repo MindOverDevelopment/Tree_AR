@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI; // Required for UI components
+using UnityEngine.UI;
 
 public class Seed : MonoBehaviour
 {
@@ -13,8 +13,8 @@ public class Seed : MonoBehaviour
     private bool hasCollided = false;
     private bool treeSpawned = false;
     [SerializeField] private GameObject seedTxt;
-    [SerializeField] private Slider forceSlider; // Reference to the UI Slider
-    [SerializeField] private GameObject scalingObject; // GameObject to scale
+    [SerializeField] private Slider forceSlider;
+    [SerializeField] private GameObject scalingObject;
 
     private float touchStartTime;
     private bool isTouching = false;
@@ -25,6 +25,7 @@ public class Seed : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.isKinematic = true;
+        // stores the reset transform for the seed to respawn
         if (resetTransform == null)
         {
             resetTransform = Camera.main.transform.Find(cameraChildName);
@@ -38,6 +39,13 @@ public class Seed : MonoBehaviour
     }
 
     private void Update()
+    {
+        UserTouchAndHold();
+    }
+    /// <summary>
+    /// Checks to see if the user has touched and how long they have held for.
+    /// </summary>
+    private void UserTouchAndHold()
     {
         if (Input.touchCount > 0)
         {
@@ -73,6 +81,10 @@ public class Seed : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// The length the player has held for is converted to a force that sends the seed in an arc 
+    /// </summary>
+    /// <param name="touchPosition"></param>
     private void FireProjectile(Vector2 touchPosition)
     {
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(touchPosition.x, touchPosition.y, Camera.main.nearClipPlane));
@@ -90,17 +102,27 @@ public class Seed : MonoBehaviour
         seedTxt.SetActive(false); // Disable the text
     }
 
+    /// <summary>
+    /// For when the seed hits the mesh created by the AR camera
+    /// </summary>
+    /// <param name="collision">AR mesh</param>
     private void OnCollisionEnter(Collision collision)
     {
         if (!treeSpawned)
         {
             treeSpawned = true;
             hasCollided = true;
+            forceSlider.gameObject.SetActive(false);
             Instantiate(treePrefab, transform.position, Quaternion.identity);
             Destroy(gameObject);
+
         }
     }
 
+    /// <summary>
+    /// Used for when the player misses.
+    /// </summary>
+    /// <returns></returns>
     IEnumerator WaitAndReset()
     {
         yield return new WaitForSeconds(3);
@@ -120,6 +142,10 @@ public class Seed : MonoBehaviour
         treeSpawned = false;
     }
 
+    /// <summary>
+    /// Updates the slider so the player knows how much force they have applied.
+    /// </summary>
+    /// <param name="force"></param>
     private void UpdateForceUI(float force)
     {
         if (forceSlider != null)
