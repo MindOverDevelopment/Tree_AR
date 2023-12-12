@@ -385,8 +385,8 @@ Transform:
   m_GameObject: {fileID: 1560299164008511144}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.42, y: 6.6, z: -2.17}
-  m_LocalScale: {x: 24.036692, y: 1, z: 24.8}
+  m_LocalPosition: {x: 0.42, y: 4.4, z: -2.17}
+  m_LocalScale: {x: 17.663122, y: 0.73484, z: 18.224031}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7022085405370918812}
@@ -505,7 +505,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
   m_LocalPosition: {x: -0.45593047, y: 1.4573001, z: 2.5437675}
-  m_LocalScale: {x: 2.1513395, y: 2.1513395, z: 2.1513395}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8599419275610204969}
@@ -587,7 +587,7 @@ VFXRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
 --- !u!1 &2533112014832716190
 GameObject:
   m_ObjectHideFlags: 0
@@ -1791,6 +1791,8 @@ MonoBehaviour:
   tree: {fileID: 6320601416886612945}
   strangeParticles: {fileID: 1830930124128576807}
   harpSound: {fileID: 6616044049270291938}
+  miniGame: {fileID: 1560299164008511144}
+  leaves: {fileID: 919937633670199935}
 --- !u!54 &6316317682989176691
 Rigidbody:
   m_ObjectHideFlags: 0

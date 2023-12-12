@@ -12,6 +12,7 @@ public class RandomSpawner : MonoBehaviour
     {
         // Spawn the first portal as the game starts
         SpawnPortal();
+
     }
 
     public void SpawnPortal()
