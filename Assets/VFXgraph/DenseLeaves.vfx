@@ -20,7 +20,7 @@ MonoBehaviour:
     x: 537
     y: -441
     width: 1588
-    height: 2258
+    height: 2278
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -60,7 +60,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 850
+      m_SerializableObject: 1500
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -1317,7 +1317,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 850
+      m_SerializableObject: 1500
     m_Space: 2147483647
   m_Property:
     name: o
