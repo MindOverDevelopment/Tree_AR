@@ -14,6 +14,7 @@ public class TreeTriggerEnter : MonoBehaviour
     [SerializeField] private GameObject tree;
     [SerializeField] private GameObject strangeParticles;
     [SerializeField] private AudioSource harpSound;
+    [SerializeField] private GameObject miniGame;
     void Start()
     {
        mainCamera = Camera.main;
@@ -30,6 +31,7 @@ public class TreeTriggerEnter : MonoBehaviour
             volume.enabled = true;
             animator.enabled = true;
             harpSound.enabled = true;
+            miniGame.SetActive(true);
             tree.SetActive(false);
             strangeParticles.SetActive(true);
             //StartCoroutine(AfterSwirlSound());

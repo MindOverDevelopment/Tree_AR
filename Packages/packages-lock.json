@@ -25,7 +25,7 @@
         "com.unity.xr.management": "4.0.1",
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       },
-      "hash": "1978137a585584820f1da06df95c0ef6b8c00ed3"
+      "hash": "7e30bd752fb0305a0c04fca5cc8f1a6ccce1a49e"
     },
     "com.nianticlabs.lightship.sharedar": {
       "version": "https://github.com/niantic-lightship/sharedar-upm.git",

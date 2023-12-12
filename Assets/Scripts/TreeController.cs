@@ -14,7 +14,8 @@ public class TreeController : MonoBehaviour
 
     [SerializeField] private GameObject leavesFalling;
     [SerializeField] private GameObject ringObj;
-
+    [SerializeField] private GameObject miniGame;
+    
     void Start()
     {
         // Make the tree face the main camera
@@ -50,7 +51,10 @@ public class TreeController : MonoBehaviour
     IEnumerator ActivateLeavesAndRing()
     {
         leavesFalling.SetActive(true);
+
         yield return new WaitForSeconds(timer2);
+        leavesFalling.transform.parent = null;
+        miniGame.transform.parent = null;
         ringObj.SetActive(true);
 
     }

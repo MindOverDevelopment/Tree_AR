@@ -610,7 +610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b456713bd4d4c31b3cb04c67d82381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _frameRate: 10
+  _targetFrameRate: 10
   _maximumIntegrationDistance: 40
   _voxelSize: 0.1
   _enableDistanceBasedVolumetricCleanup: 1
@@ -791,7 +791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b456713bd4d4c31b3cb04c67d82381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _frameRate: 10
+  _targetFrameRate: 10
   _maximumIntegrationDistance: 40
   _voxelSize: 0.5
   _enableDistanceBasedVolumetricCleanup: 1
@@ -829,7 +829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b456713bd4d4c31b3cb04c67d82381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _frameRate: 10
+  _targetFrameRate: 5
   _maximumIntegrationDistance: 30
   _voxelSize: 0.2
   _enableDistanceBasedVolumetricCleanup: 1
@@ -2039,9 +2039,6 @@ GameObject:
   - component: {fileID: 1856749846}
   - component: {fileID: 1856749845}
   - component: {fileID: 1856749850}
-  - component: {fileID: 1856749844}
-  - component: {fileID: 1856749854}
-  - component: {fileID: 1856749853}
   - component: {fileID: 1856749851}
   - component: {fileID: 1856749852}
   m_Layer: 0
@@ -2068,23 +2065,6 @@ Transform:
   - {fileID: 1570928353}
   m_Father: {fileID: 1934332110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1856749844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1856749841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b15f82cc229284894964d2d30806969d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HumanSegmentationStencilMode: 0
-  m_HumanSegmentationDepthMode: 0
-  m_EnvironmentDepthMode: 1
-  m_EnvironmentDepthTemporalSmoothing: 1
-  m_OcclusionPreferenceMode: 0
 --- !u!114 &1856749845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2135,7 +2115,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_BackGroundColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2157,7 +2137,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 20
+  far clip plane: 1000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -2342,42 +2322,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.01
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1856749853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1856749841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 428eb62726fd471a8ae41b9d299b2c1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetFrameRate: 20
---- !u!114 &1856749854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1856749841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11aa8f461d05f45f68d7b81ed08f1f9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetFrameRate: 20
-  _optimalOcclusionDistanceMode: 0
-  _principalOccludee: {fileID: 0}
-  _isOcclusionSuppressionEnabled: 1
-  _semanticSegmentationManager: {fileID: 1856749853}
-  _suppressionChannels:
-  - sky
-  _isOcclusionStabilizationEnabled: 0
-  _meshManager: {fileID: 0}
-  _useCustomBackgroundMaterial: 1
-  _customBackgroundMaterial: {fileID: 2100000, guid: c5872b8a4147f4de79626818c54f4e32, type: 2}
 --- !u!1 &1934332109
 GameObject:
   m_ObjectHideFlags: 0
