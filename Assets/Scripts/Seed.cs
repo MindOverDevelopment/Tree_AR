@@ -6,6 +6,7 @@ public class Seed : MonoBehaviour
 {
     public GameObject treePrefab;
     public float maxProjectileForce = 15f;
+    [SerializeField] private float seedScale = 0.2f; // Factor to control the scale of the seed
     private Rigidbody rb;
     private string cameraChildName = "CameraChild";
     public Transform resetTransform;
@@ -15,6 +16,8 @@ public class Seed : MonoBehaviour
     [SerializeField] private GameObject seedTxt;
     [SerializeField] private Slider forceSlider;
     [SerializeField] private GameObject scalingObject;
+    [SerializeField] private GameObject launchVFX;
+    [SerializeField] private TrailRenderer trailRenderer;
 
     private float touchStartTime;
     private bool isTouching = false;
@@ -100,6 +103,9 @@ public class Seed : MonoBehaviour
         hasBeenFired = true;
 
         seedTxt.SetActive(false); // Disable the text
+        launchVFX.SetActive(true); // Enable the launch VFX
+        trailRenderer.enabled = true; // Enable the trail renderer
+
     }
 
     /// <summary>
@@ -110,11 +116,13 @@ public class Seed : MonoBehaviour
     {
         if (!treeSpawned)
         {
+            trailRenderer.enabled = false; // Disable the trail renderer
             treeSpawned = true;
             hasCollided = true;
             forceSlider.gameObject.SetActive(false);
             Instantiate(treePrefab, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
+
 
         }
     }
@@ -135,6 +143,8 @@ public class Seed : MonoBehaviour
             rb.isKinematic = true;
             transform.localScale = new Vector3(0.01f, 0.01f, 0.01f); // Reset the scale
             seedTxt.SetActive(true); // Re-enable the text
+            launchVFX.SetActive(false);
+            trailRenderer.enabled = false; 
         }
 
         hasBeenFired = false;
@@ -157,7 +167,7 @@ public class Seed : MonoBehaviour
         if (scalingObject != null)
         {
             // Scale the GameObject based on the current force
-            float scale = (force / maxProjectileForce) * 0.04f;
+            float scale = (force / maxProjectileForce) * seedScale;
             scalingObject.transform.localScale = new Vector3(scale, scale, scale);
         }
     }
