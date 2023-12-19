@@ -15,6 +15,7 @@ public class TreeController : MonoBehaviour
     [SerializeField] private GameObject leavesFalling;
     [SerializeField] private GameObject ringObj;
     [SerializeField] private GameObject miniGame;
+    [SerializeField] private GameObject strangeBits;
     
     void Start()
     {
@@ -55,6 +56,7 @@ public class TreeController : MonoBehaviour
         yield return new WaitForSeconds(timer2);
         leavesFalling.transform.parent = null;
         miniGame.transform.parent = null;
+        strangeBits.transform.parent = null;
         ringObj.SetActive(true);
 
     }

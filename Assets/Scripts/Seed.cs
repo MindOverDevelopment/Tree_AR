@@ -18,6 +18,10 @@ public class Seed : MonoBehaviour
     [SerializeField] private GameObject scalingObject;
     [SerializeField] private GameObject launchVFX;
     [SerializeField] private TrailRenderer trailRenderer;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip holdSound;
+    [SerializeField] private AudioClip fireSound;
+    [SerializeField] private AudioClip landSFX;
 
     private float touchStartTime;
     private bool isTouching = false;
@@ -58,12 +62,15 @@ public class Seed : MonoBehaviour
             {
                 touchStartTime = Time.time;
                 isTouching = true;
+                audioSource.PlayOneShot(holdSound);
             }
             else if (touch.phase == TouchPhase.Ended && isTouching && !hasBeenFired)
             {
                 FireProjectile(touch.position);
                 StartCoroutine(WaitAndReset());
                 isTouching = false;
+                audioSource.Stop();
+                audioSource.PlayOneShot(fireSound);
             }
 
             if (isTouching)
@@ -120,6 +127,8 @@ public class Seed : MonoBehaviour
             treeSpawned = true;
             hasCollided = true;
             forceSlider.gameObject.SetActive(false);
+            audioSource.Stop();
+            audioSource.PlayOneShot(landSFX);
             Instantiate(treePrefab, transform.position, Quaternion.identity);
             gameObject.SetActive(false);
 
