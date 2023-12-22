@@ -17,7 +17,7 @@ namespace Niantic.Lightship.AR.Samples
         [SerializeField]
         private Dropdown _channelDropdown;
 
-        private string _semanticChannelName = string.Empty;
+        private string _semanticChannelName = "sky";
 
         protected override void Awake()
         {
@@ -67,7 +67,7 @@ namespace Niantic.Lightship.AR.Samples
         private void ChannelDropdown_OnValueChanged(int val)
         {
             // Update the display channel from the dropdown value.
-            _semanticChannelName = _channelDropdown.options[val].text;
+           // _semanticChannelName = _channelDropdown.options[val].text;
         }
     }
 }

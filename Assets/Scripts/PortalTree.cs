@@ -15,7 +15,7 @@ public class PortalTree : MonoBehaviour
     [SerializeField] private GameObject leavesFalling;
     [SerializeField] private GameObject ringObj;
     [SerializeField] private GameObject renderTexture;
-    
+    [SerializeField] private GameObject skyPortalSpace;
     void Start()
     {
         // Make the tree face the main camera
@@ -52,6 +52,7 @@ public class PortalTree : MonoBehaviour
     {
         leavesFalling.SetActive(true);
         yield return new WaitForSeconds(timer2);
+        skyPortalSpace.SetActive(true);
         renderTexture.SetActive(true);
         leavesFalling.transform.parent = null;
         ringObj.SetActive(true);
