@@ -6,6 +6,8 @@ TagManager:
   tags:
   - SoundManager
   - AudioPlayer
+  - RenderCamera
+  - CameraOffset
   layers:
   - Default
   - TransparentFX
