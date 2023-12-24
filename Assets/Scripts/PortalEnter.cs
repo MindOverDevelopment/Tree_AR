@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class PortalEnter : MonoBehaviour
 {
-    [SerializeField] GameObject portalObjects;
+    [SerializeField] GameObject portalObjectsOn;
+    [SerializeField] GameObject portalObjectsOff;
+    [SerializeField] GameObject tree;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("MainCamera"))
         {
             Camera cam = other.gameObject.GetComponent<Camera>();
             cam.clearFlags = CameraClearFlags.Skybox;
-            portalObjects.SetActive(true);
+            portalObjectsOn.SetActive(true);
+            portalObjectsOff.SetActive(false);
+            tree.SetActive(false);
         }
     }
 }
