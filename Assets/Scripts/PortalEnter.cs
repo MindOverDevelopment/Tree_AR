@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class PortalEnter : MonoBehaviour
 {
-    [SerializeField] GameObject portalObjectsOn;
-    [SerializeField] GameObject portalObjectsOff;
-    [SerializeField] GameObject tree;
+    public float newFogEndDistance = 300.0f; // The new fog end distance you want to set
+    [SerializeField] private GameObject portalObjectsOn;
+    [SerializeField] private GameObject portalObjectsOff;
+    [SerializeField] private GameObject tree;
+    [SerializeField] private GameObject magicMusic;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("MainCamera"))
@@ -16,6 +18,8 @@ public class PortalEnter : MonoBehaviour
             portalObjectsOn.SetActive(true);
             portalObjectsOff.SetActive(false);
             tree.SetActive(false);
+            magicMusic.SetActive(true);
+            RenderSettings.fogEndDistance = newFogEndDistance;
         }
     }
 }
