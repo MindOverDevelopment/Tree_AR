@@ -261,7 +261,7 @@ MonoBehaviour:
   fireSound: {fileID: 8300000, guid: 5d3506c5c6efd8044a6914cf2eba744d, type: 3}
   landSFX: {fileID: 8300000, guid: 05f82216c96d1704d9f1c6d5a8fdedbb, type: 3}
   currentForce: 0
-  forceIncreaseRate: 2
+  forceIncreaseRate: 3
 --- !u!1 &86901362
 GameObject:
   m_ObjectHideFlags: 0
@@ -2203,7 +2203,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1719974140
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2285,7 +2285,7 @@ Transform:
   m_GameObject: {fileID: 1719974139}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.79, z: 0}
+  m_LocalPosition: {x: 0, y: -0.475, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 11.752}
   m_ConstrainProportionsScale: 0
   m_Children: []

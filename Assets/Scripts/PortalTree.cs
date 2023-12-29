@@ -16,6 +16,7 @@ public class PortalTree : MonoBehaviour
     [SerializeField] private GameObject ringObj;
     [SerializeField] private GameObject renderTexture;
     [SerializeField] private GameObject skyPortalSpace;
+    [SerializeField] private GameObject magicMusic;
     void Start()
     {
         // Make the tree face the main camera
@@ -56,6 +57,7 @@ public class PortalTree : MonoBehaviour
         renderTexture.SetActive(true);
         leavesFalling.transform.parent = null;
         ringObj.SetActive(true);
+        magicMusic.SetActive(true);
 
     }
 }
