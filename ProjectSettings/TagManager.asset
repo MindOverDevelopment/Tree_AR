@@ -8,6 +8,9 @@ TagManager:
   - AudioPlayer
   - RenderCamera
   - CameraOffset
+  - PortalEffect
+  - PortalEffectExit
+  - PortalEffectEnter
   layers:
   - Default
   - TransparentFX

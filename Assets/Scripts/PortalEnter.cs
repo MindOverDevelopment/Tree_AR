@@ -11,10 +11,12 @@ public class PortalEnter : MonoBehaviour
     [SerializeField] private GameObject tree;
     [SerializeField] private GameObject magicMusic;
     private ARMeshManager arMeshManager;
+    private GameObject portalEffectEnter;
 
 
     private void Start()
     {
+        portalEffectEnter = GameObject.FindGameObjectWithTag("PortalEffectEnter");
         // Find the ARMeshManager in the scene at the start.
         arMeshManager = FindObjectOfType<ARMeshManager>();
         if (arMeshManager == null)
@@ -27,6 +29,7 @@ public class PortalEnter : MonoBehaviour
     {
         if (other.gameObject.CompareTag("MainCamera"))
         {
+            portalEffectEnter.transform.GetChild(0).gameObject.SetActive(true);
             Camera cam = other.gameObject.GetComponent<Camera>();
             cam.clearFlags = CameraClearFlags.Skybox;
             portalObjectsOn.SetActive(true);

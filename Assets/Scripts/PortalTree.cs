@@ -51,11 +51,11 @@ public class PortalTree : MonoBehaviour
     /// <returns></returns>
     IEnumerator ActivateLeavesAndRing()
     {
-        leavesFalling.SetActive(true);
+        leavesFalling.SetActive(false);
         yield return new WaitForSeconds(timer2);
         skyPortalSpace.SetActive(true);
         renderTexture.SetActive(true);
-        leavesFalling.transform.parent = null;
+        leavesFalling.SetActive(true);
         ringObj.SetActive(true);
         magicMusic.SetActive(true);
 
