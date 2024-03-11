@@ -5,4 +5,5 @@ When the tree grows crawl into the portal to enter a new world.
 In this world behind you, you will find a portal back to the real world. And infront of you a harp playing proximity music.
 Collect the harp and bring it home.
 
-Have fun!
+Addons from unity store:
+Dev Dunk Studio's https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-free-228074
